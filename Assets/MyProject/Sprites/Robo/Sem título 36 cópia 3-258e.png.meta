@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 1d302ac83f0cb3b418ef90720482c647
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3794918828946711384
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_0"
+  - first:
+      213: 7443069734579813492
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_1"
+  - first:
+      213: -6165487030114781150
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_2"
+  - first:
+      213: 3100559597862584469
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_3"
+  - first:
+      213: 4779427717703947852
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_4"
+  - first:
+      213: -1395845112893222521
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_5"
+  - first:
+      213: -1205869313289659511
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_6"
+  - first:
+      213: 4902335199344073205
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_7"
+  - first:
+      213: 6841285354435795283
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_8"
+  - first:
+      213: 857682721668084351
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_9"
+  - first:
+      213: 515251227898414783
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_10"
+  - first:
+      213: -3235848093023178796
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_11"
+  - first:
+      213: 8779157816967564994
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_12"
+  - first:
+      213: 893937725202100628
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_13"
+  - first:
+      213: 3072740103978180081
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_14"
+  - first:
+      213: 6297593038838858257
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_15"
+  - first:
+      213: 6792094072312338408
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_16"
+  - first:
+      213: -232817830685849031
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_17"
+  - first:
+      213: -5876730275052638600
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_18"
+  - first:
+      213: -5042658500272897201
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_19"
+  - first:
+      213: -4220673852356391594
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_20"
+  - first:
+      213: -7204359296892064978
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_21"
+  - first:
+      213: 2209239049100096889
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_22"
+  - first:
+      213: 77219725280108502
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_23"
+  - first:
+      213: 932803259100404100
+    second: "Sem t\xEDtulo 36 c\xF3pia 3-258e_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_0"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 54
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8536fce81924aa430800000000000000
+      internalID: 3794918828946711384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_1"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c37101d781b4760800000000000000
+      internalID: 7443069734579813492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_2"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 54
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228fab6563acf6aa0800000000000000
+      internalID: -6165487030114781150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_3"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2
+        width: 54
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590078bd686670b20800000000000000
+      internalID: 3100559597862584469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_4"
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 2
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46566fcf20f35240800000000000000
+      internalID: 4779427717703947852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 36 c\xF3pia 3-258e_21"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2
+        width: 54
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b277ac369f40c90800000000000000
+      internalID: -7204359296892064978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fb09b6181f8f82a43959b22654775b27
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_0": 3794918828946711384
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_1": 7443069734579813492
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_10": 515251227898414783
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_11": -3235848093023178796
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_12": 8779157816967564994
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_13": 893937725202100628
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_14": 3072740103978180081
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_15": 6297593038838858257
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_16": 6792094072312338408
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_17": -232817830685849031
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_18": -5876730275052638600
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_19": -5042658500272897201
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_2": -6165487030114781150
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_20": -4220673852356391594
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_21": -7204359296892064978
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_22": 2209239049100096889
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_23": 77219725280108502
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_24": 932803259100404100
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_3": 3100559597862584469
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_4": 4779427717703947852
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_5": -1395845112893222521
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_6": -1205869313289659511
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_7": 4902335199344073205
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_8": 6841285354435795283
+      "Sem t\xEDtulo 36 c\xF3pia 3-258e_9": 857682721668084351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

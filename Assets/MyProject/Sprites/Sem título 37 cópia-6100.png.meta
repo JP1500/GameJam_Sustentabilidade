@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: bc5658ee3c4b1a34789045a0adaced92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1181031169265767176
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_0"
+  - first:
+      213: 2938079995677398608
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_1"
+  - first:
+      213: -3062226992176947978
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_2"
+  - first:
+      213: 8622115098798171327
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_3"
+  - first:
+      213: 539901507863067541
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_4"
+  - first:
+      213: 5548040084315971744
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_5"
+  - first:
+      213: 5493207794065637812
+    second: "Sem t\xEDtulo 37 c\xF3pia-6100_6"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 37 c\xF3pia-6100_1"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0565800803826c820800000000000000
+      internalID: 2938079995677398608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 37 c\xF3pia-6100_2"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 39
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc1ea566c8c085d0800000000000000
+      internalID: -3062226992176947978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 37 c\xF3pia-6100_4"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b30e59f8d1e7700800000000000000
+      internalID: 539901507863067541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 37 c\xF3pia-6100_5"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a02849df099efc40800000000000000
+      internalID: 5548040084315971744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo 37 c\xF3pia-6100_6"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b180ba626bcb3c40800000000000000
+      internalID: 5493207794065637812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7fe301a52137ce74aa2678ebe47369a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sem t\xEDtulo 37 c\xF3pia-6100_0": -1181031169265767176
+      "Sem t\xEDtulo 37 c\xF3pia-6100_1": 2938079995677398608
+      "Sem t\xEDtulo 37 c\xF3pia-6100_2": -3062226992176947978
+      "Sem t\xEDtulo 37 c\xF3pia-6100_3": 8622115098798171327
+      "Sem t\xEDtulo 37 c\xF3pia-6100_4": 539901507863067541
+      "Sem t\xEDtulo 37 c\xF3pia-6100_5": 5548040084315971744
+      "Sem t\xEDtulo 37 c\xF3pia-6100_6": 5493207794065637812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
