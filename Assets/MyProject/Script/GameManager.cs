@@ -28,7 +28,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        
+        totalPoints = PlayerPrefs.GetInt("totalPoints", totalPoints);
+        timerBonus = PlayerPrefs.GetFloat("TimerBonus", 0);
+        speedBonus = PlayerPrefs.GetFloat("SpeedBonus", 0);
+        pointBonus = PlayerPrefs.GetInt("PointBonus", 0);
+
     }
 
     private void Update()
@@ -36,6 +40,9 @@ public class GameManager : MonoBehaviour
         if (points != 0)
         {
             totalPoints += points;
+            PlayerPrefs.SetInt("totalPoints", totalPoints);
+            PlayerPrefs.Save();
+
             points = 0;
         }
     }

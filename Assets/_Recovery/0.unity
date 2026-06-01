@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 564881932}
   - component: {fileID: 564881931}
   m_Layer: 5
-  m_Name: Upgrade (Timer)
+  m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,9 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971961304b0923f4dab93710380c8cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Upgrades
-  objectId: Timer
   value: 50
-  upgradeLevel: 0
   timerBonus: 10
   pointBonus: 0
   speedBonus: 0
@@ -423,7 +421,7 @@ GameObject:
   - component: {fileID: 782259662}
   - component: {fileID: 782259661}
   m_Layer: 5
-  m_Name: Upgrade (Speed)
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,9 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 971961304b0923f4dab93710380c8cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Upgrades
-  objectId: Speed
   value: 10
-  upgradeLevel: 0
   timerBonus: 0
   pointBonus: 1
   speedBonus: 10
@@ -1055,7 +1051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7150935248822546100, guid: db5fc2e7c7531d448a73074d0b496854, type: 3}
       propertyPath: totalPoints
-      value: 9999
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

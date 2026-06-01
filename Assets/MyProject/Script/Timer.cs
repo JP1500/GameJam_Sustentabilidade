@@ -1,4 +1,3 @@
-using UnityEditor.ProjectWindowCallback;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,7 +7,7 @@ public class Timer : MonoBehaviour
 
     public static Timer Instance;
     [Header("Timer")]
-    [SerializeField] float currentTime;
+    [SerializeField] public float currentTime;
 
 
     [Header("Outros componentes/objetos")]
