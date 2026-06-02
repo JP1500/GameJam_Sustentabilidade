@@ -38,16 +38,6 @@ public class PlayerController : MonoBehaviour
         speed += gameManager.speedBonus;
         lifeTime += gameManager.timerBonus;
     }
-    void Start()
-    {
-
-    }
-
-
-    void Update()
-    {
-  
-    }
 
     void FixedUpdate()
     {
@@ -77,70 +67,95 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
+
                 rb.linearVelocityX = 0f;
                 rb.linearVelocityY = 0f;
             }
         }
+
     }
 
     public void MoveLeft()
     {
-        canMoveLeft = true;
-        ResetLayers();
-        anim.SetLayerWeight(1, 2);
-        anim.SetBool("movendo", true);
-        spriteRenderer.flipX = true;
+        if (canMove)
+        {
+            canMoveLeft = true;
+            ResetLayers();
+            anim.SetLayerWeight(1, 2);
+            anim.SetBool("movendo", true);
+            spriteRenderer.flipX = true;
+        }
     }
     public void StopMoveLeft()
     {
-        canMoveLeft = false;
-        ResetLayers();
-        anim.SetLayerWeight(1, 2);
-        anim.SetBool("movendo", false);
-        
+        if (canMove)
+        {
+            canMoveLeft = false;
+            ResetLayers();
+            anim.SetLayerWeight(1, 2);
+            anim.SetBool("movendo", false);
+        }
     }
     public void MoveRight()
     {
-        canMoveRight = true;
-        ResetLayers();
-        anim.SetLayerWeight(1, 2);
-        anim.SetBool("movendo", true);
-        spriteRenderer.flipX = false;
+        if (canMove)
+        {
+            canMoveRight = true;
+            ResetLayers();
+            anim.SetLayerWeight(1, 2);
+            anim.SetBool("movendo", true);
+            spriteRenderer.flipX = false;
+        }
     }
     public void StopMoveRight()
     {
-        canMoveRight = false;
-        ResetLayers();
-        anim.SetLayerWeight(1, 2);
-        anim.SetBool("movendo", false);
+        if (canMove)
+        {
+            canMoveRight = false;
+            ResetLayers();
+            anim.SetLayerWeight(1, 2);
+            anim.SetBool("movendo", false);
+        }
     }
     public void MoveUp()
     {
-        canMoveUp = true;
-        ResetLayers();
-        anim.SetLayerWeight(2, 1);
-        anim.SetBool("movendo", true);
+        if (canMove)
+        {
+            canMoveUp = true;
+            ResetLayers();
+            anim.SetLayerWeight(2, 1);
+            anim.SetBool("movendo", true);
+        }
     }
     public void StopMoveUp()
     {
-        canMoveUp = false;
-        ResetLayers();
-        anim.SetLayerWeight(2, 1);
-        anim.SetBool("movendo", false);
+        if (canMove)
+        {
+            canMoveUp = false;
+            ResetLayers();
+            anim.SetLayerWeight(2, 1);
+            anim.SetBool("movendo", false);
+        }
     }
     public void MoveDown()
     {
-        canMoveDown = true;
-        ResetLayers();
-        anim.SetLayerWeight(0, 0);
-        anim.SetBool("movendo", true);
+        if (canMove)
+        {
+            canMoveDown = true;
+            ResetLayers();
+            anim.SetLayerWeight(0, 0);
+            anim.SetBool("movendo", true);
+        }
     }
     public void StopMoveDown()
     {
-        canMoveDown = false;
-        ResetLayers();
-        anim.SetLayerWeight(0, 0);
-        anim.SetBool("movendo", false);
+        if (canMove)
+        {
+            canMoveDown = false;
+            ResetLayers();
+            anim.SetLayerWeight(0, 0);
+            anim.SetBool("movendo", false);
+        }
     }
 
     private void ResetLayers()
@@ -151,4 +166,3 @@ public class PlayerController : MonoBehaviour
     
     }
 }
-

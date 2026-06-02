@@ -5,6 +5,9 @@ public class Pontos : MonoBehaviour
 {
 
     [SerializeField] TextMeshProUGUI pontos;
+    [SerializeField] TextMeshProUGUI trashCollectedText;
+
+    public int trashCollected;
     public int score;
     public static Pontos instance;
     [SerializeField] GameManager gameManager;
@@ -18,6 +21,7 @@ public class Pontos : MonoBehaviour
     }
     public void AddScore()
     {
+        trashCollected++;
         score += 1 + gameManager.pointBonus;
         gameManager.points += 1 + gameManager.pointBonus;
 
@@ -28,6 +32,7 @@ public class Pontos : MonoBehaviour
     void UpdateScore()
     {
         pontos.text = score.ToString("00");
+        trashCollectedText.text = trashCollected.ToString("00");
     }
 
   private void OnTriggerEnter2D(Collider2D other)

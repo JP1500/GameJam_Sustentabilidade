@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int pointBonus;
     [SerializeField] public float speedBonus;
 
+    [Header("Configurações de acessibilidade")]
+    [SerializeField] public bool rightSide;
+
     private void Awake()
     {
         if (instance == null)
