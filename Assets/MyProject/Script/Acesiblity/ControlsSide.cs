@@ -21,7 +21,7 @@ public class ControlsSide : MonoBehaviour
         {
             battery.anchoredPosition = new Vector3(-368, 200, 0);
 
-            restart.anchoredPosition = new Vector3(994, 160, 0);
+            restart.anchoredPosition = new Vector3(354, 160, 0);
             restart.localScale = new Vector3(-1, 1, 1);
 
             controls.anchoredPosition = new Vector3(328, 140, 0);
