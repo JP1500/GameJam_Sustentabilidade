@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
@@ -11,23 +10,21 @@ public class Timer : MonoBehaviour
 
 
     [Header("Outros componentes/objetos")]
-    //[SerializeField] Slider slider;
+    [SerializeField] ChangeScene changeScene;
     [SerializeField] public PlayerController playerController;
 
     [SerializeField] public string sceneName;
 
-    [Header("Aqui estou apenas fazendo um teste")]
-    [SerializeField] public SceneManager sceneManager;
-
     private void Awake()
     {
+        changeScene = FindAnyObjectByType<ChangeScene>();
         playerController = FindAnyObjectByType<PlayerController>();
         Instance = this;
+
     }
 
     private void Start()
     {
-        //slider.maxValue = playerController.lifeTime;
         currentTime = playerController.lifeTime;
     }
     void Update()
@@ -36,20 +33,15 @@ public class Timer : MonoBehaviour
         {
             currentTime -= Time.deltaTime;
 
-            //slider.value = currentTime;
         }
 
         else if (currentTime <= 0)
         {
             playerController.canMove = false;
             playerController.spriteRenderer.color = Color.blue;
+            changeScene.StartFade();
             Debug.Log("Carregando cena");
             Invoke("LoadScene", 1.5f);
         }
-    }
-
-    void LoadScene()
-    {
-        SceneManager.LoadScene(sceneName);
     }
 }
