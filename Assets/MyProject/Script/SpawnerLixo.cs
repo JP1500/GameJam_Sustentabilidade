@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class SpawnerLixo : MonoBehaviour
 {
-    [SerializeField] float minX;
-    [SerializeField] float maxX;
+    [SerializeField] public float minX;
+    [SerializeField] public float maxX;
 
-    [SerializeField] float minY;
-    [SerializeField] float maxY;
+    [SerializeField] public float minY;
+    [SerializeField] public float maxY;
 
     [SerializeField] GameObject lixoPrefab;
     [SerializeField] Transform[] spawnPoints;
@@ -24,13 +24,18 @@ public class SpawnerLixo : MonoBehaviour
 
     public void Createlixo()
     {
-        int _index = Random.Range(0, spawnPoints.Length);
-        Vector2 pos = spawnPoints[_index].position;
-        pos.x += Random.Range(maxX, minX);
-        pos.y += Random.Range(maxY, minY);
+        Vector2 pos;
 
-        GameObject lixo = Instantiate(lixoPrefab, pos, spawnPoints[_index].rotation);
+        do
+        {
 
+            pos = new Vector2(Random.Range(maxX, minX), Random.Range(maxY, minY));
+        }
+
+        while (InCamera(pos));
+
+        GameObject lixo = Instantiate(lixoPrefab, pos, Quaternion.identity);
+        Debug.Log("Spawnei fora da camera");
         int spriteIndex = Random.Range(0, spritesPossiveis.Length);
 
         SpriteRenderer sr = lixo.GetComponent<SpriteRenderer>();
@@ -41,5 +46,12 @@ public class SpawnerLixo : MonoBehaviour
         }
 
 
+    }
+
+    bool InCamera(Vector2 posicao)
+    {
+        Vector3 tela = Camera.main.WorldToViewportPoint(posicao);
+
+        return tela.x >= 0 && tela.x <= 1 && tela.y >= 0 && tela.y <= 1;
     }
 }

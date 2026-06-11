@@ -41,7 +41,6 @@ public class Timer : MonoBehaviour
             playerController.spriteRenderer.color = Color.blue;
             changeScene.StartFade();
             Debug.Log("Carregando cena");
-            Invoke("LoadScene", 1.5f);
         }
     }
 }
