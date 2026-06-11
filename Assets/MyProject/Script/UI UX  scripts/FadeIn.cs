@@ -30,5 +30,6 @@ public class FadeIn : MonoBehaviour
 
         color.a = 0;
         fadeImage.color = color;
+        gameObject.SetActive(false);
     }
 }

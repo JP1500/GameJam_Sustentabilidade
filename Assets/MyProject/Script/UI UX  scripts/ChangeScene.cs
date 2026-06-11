@@ -9,6 +9,10 @@ public class ChangeScene : MonoBehaviour
     [SerializeField] float fadeDuration = 1f;
     [SerializeField] string nextScene;
 
+    void Awake()
+    {
+        gameObject.SetActive(false);
+    }
     public void StartFade()
     {
         gameObject.SetActive(true);

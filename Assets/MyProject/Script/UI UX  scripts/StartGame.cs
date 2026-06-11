@@ -7,6 +7,7 @@ public class StartGame : MonoBehaviour
     [SerializeField] float transitionSpeed;
     [SerializeField] GameObject[] squares;
 
+
     private void Awake()
     {
         gameObject.SetActive(true);
@@ -21,6 +22,7 @@ public class StartGame : MonoBehaviour
     private void Start()
     {
         StartCoroutine(OpenPanel());
+       
     }
 
     IEnumerator OpenPanel()
