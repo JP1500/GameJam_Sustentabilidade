@@ -35,22 +35,19 @@ public class SpecialUpgrade : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (AllIsMax())
-        {
-            Debug.Log("Estou podendo ser comprado");
-        }
-    }
-
     public void OnClick()
     {
         if ((gameManager.totalPoints >= value) && (AllIsMax()))
         {
+            gameManager.totalPoints -= value;
             intBuyied = 1;
             isBuyied = true;
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
             gameObject.SetActive(false);
+            foreach (Upgrades upgrades in upgrades)
+            {
+                upgrades.maxLevel += 5;
+            }
         }
     }
 
@@ -63,6 +60,7 @@ public class SpecialUpgrade : MonoBehaviour
                 return false;
             }
         }
+        Debug.Log("Estou podendo ser comprado");
         return true;
     }
 }
