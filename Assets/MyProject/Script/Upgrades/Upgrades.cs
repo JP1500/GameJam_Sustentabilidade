@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -6,11 +7,14 @@ public class Upgrades : MonoBehaviour
     [Header("ID do objeto")]
     [SerializeField] string objectId;
 
-    [Header("Valor do upgrade")]
+    [Header("Valor do upgrade e texto")]
     [SerializeField] int value;
+    [SerializeField] TextMeshProUGUI valueText;
 
     [Header("Nivel do upgrade")]
-    [SerializeField] int upgradeLevel;
+    [SerializeField] public int upgradeLevel;
+    [SerializeField] public int maxLevel;
+    [SerializeField] public bool isMax;
 
     [Header("Bonus do upgrade")]
     [SerializeField] float timerBonus;
@@ -30,12 +34,27 @@ public class Upgrades : MonoBehaviour
 
         upgradeLevel =PlayerPrefs.GetInt(objectId + "upgradeLevel", upgradeLevel);
         value = PlayerPrefs.GetInt(objectId + "upgradeValue", value);
+        valueText.text = "Value:" + value;
+    }
+
+    private void Update()
+    {
+        if (upgradeLevel == maxLevel)
+        {
+            isMax = true;
+            valueText.text = "Value: MAXIMO";
+        }
+        else
+        {
+            isMax = false;
+            valueText.text = "Value:" + value;
+        }
     }
 
     public void OnClick()
     {
 
-        if (gameManager.totalPoints >= value)
+        if ((gameManager.totalPoints >= value) && (!isMax))
         {
             gameManager.totalPoints -= value;
             IncreaseValue();

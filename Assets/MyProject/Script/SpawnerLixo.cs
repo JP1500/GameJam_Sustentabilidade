@@ -3,17 +3,22 @@ using UnityEngine;
 
 public class SpawnerLixo : MonoBehaviour
 {
+    [Header("Valores minimos e maximos de spawn")]
     [SerializeField] public float minX;
     [SerializeField] public float maxX;
 
     [SerializeField] public float minY;
     [SerializeField] public float maxY;
 
-    [SerializeField] GameObject lixoPrefab;
-    [SerializeField] Transform[] spawnPoints;
+    [Header("Velocidade de spawn")]
     [SerializeField] float spawnSpeed;
 
+    [Header("Componentes externos")]
+    [SerializeField] GameObject lixoPrefab;
+    [SerializeField] Transform[] spawnPoints;
     public Sprite[] spritesPossiveis;
+
+
 
 
 
