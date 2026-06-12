@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 public class PlayerController : MonoBehaviour
 {
     [Header("Atributos")]
-    [SerializeField] float speed;
+    [SerializeField] public float speed;
     [SerializeField] public float lifeTime;
 
     public bool canMove;
@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        speed = 5;
         canMove = true;
         canMoveLeft = false;
         canMoveRight = false;
@@ -67,7 +68,6 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-
                 rb.linearVelocityX = 0f;
                 rb.linearVelocityY = 0f;
             }

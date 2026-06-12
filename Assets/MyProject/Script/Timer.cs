@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
@@ -13,6 +14,8 @@ public class Timer : MonoBehaviour
     [SerializeField] ChangeScene changeScene;
     [SerializeField] public PlayerController playerController;
 
+    [Header("Transição de cenas")]
+    [SerializeField] public GameObject transitionOut;
     [SerializeField] public string sceneName;
 
     private void Awake()
@@ -37,10 +40,14 @@ public class Timer : MonoBehaviour
 
         else if (currentTime <= 0)
         {
+            transitionOut.SetActive(true);
+            changeScene = FindAnyObjectByType<ChangeScene>();
             playerController.canMove = false;
             playerController.spriteRenderer.color = Color.blue;
+            playerController.speed = 0f;
             changeScene.StartFade();
             Debug.Log("Carregando cena");
+            SceneManager.LoadScene("sceneName");
         }
     }
 }
