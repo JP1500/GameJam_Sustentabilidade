@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpecialUpgrade : MonoBehaviour
 {
@@ -17,11 +18,12 @@ public class SpecialUpgrade : MonoBehaviour
 
     [Header("Componentes externos")]
     [SerializeField] GameManager gameManager;
+    [SerializeField] SustentoBar sustentoBar;
 
     private void Awake()
     {
         upgrades = FindObjectsByType<Upgrades>(FindObjectsSortMode.None);
-
+        sustentoBar = FindAnyObjectByType<SustentoBar>();
         gameManager =FindAnyObjectByType<GameManager>();
         intBuyied = PlayerPrefs.GetInt(objectId + "isBuyied", intBuyied);
 
@@ -43,6 +45,7 @@ public class SpecialUpgrade : MonoBehaviour
             intBuyied = 1;
             isBuyied = true;
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
+            sustentoBar.value += 20;
             gameObject.SetActive(false);
             foreach (Upgrades upgrades in upgrades)
             {

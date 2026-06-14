@@ -34,7 +34,16 @@ public class Upgrades : MonoBehaviour
 
         upgradeLevel =PlayerPrefs.GetInt(objectId + "upgradeLevel", upgradeLevel);
         value = PlayerPrefs.GetInt(objectId + "upgradeValue", value);
-        valueText.text = "Value:" + value;
+        if (upgradeLevel == maxLevel)
+        {
+            isMax = true;
+            valueText.text = "Valor: MAXIMO";
+        }
+        else
+        {
+            isMax = false;
+            valueText.text = "Valor:" + value;
+        }
     }
 
     private void Update()
@@ -42,12 +51,12 @@ public class Upgrades : MonoBehaviour
         if (upgradeLevel == maxLevel)
         {
             isMax = true;
-            valueText.text = "Value: MAXIMO";
+            valueText.text = "Valor: MAXIMO";
         }
         else
         {
             isMax = false;
-            valueText.text = "Value:" + value;
+            valueText.text = "Valor:" + value;
         }
     }
 
