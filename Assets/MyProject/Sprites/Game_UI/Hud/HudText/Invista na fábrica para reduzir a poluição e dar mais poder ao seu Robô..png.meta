@@ -90,7 +90,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -184,11 +184,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 84
-        height: 31
+        y: 0
+        width: 566
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,291 +203,15 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._1"
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 5
-        width: 36
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771dbc7c2948898c0800000000000000
-      internalID: -3992295303711829641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._2"
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 5
-        width: 88
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fdf7b21a17623fe0800000000000000
-      internalID: -1210791988128383495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._3"
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 1
-        width: 61
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33fcf94eb7842c2b0800000000000000
-      internalID: -5565806492522655949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._4"
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 5
-        width: 89
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2dd9d7aeae7d3b890800000000000000
-      internalID: -7443368355156877870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._5"
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 5
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a332d04f596d49b10800000000000000
-      internalID: 1987449275110204218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._6"
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 0
-        width: 106
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7fb5b96682567930800000000000000
-      internalID: 4140587644666363773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._7"
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 5
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 997e4336ec83cb5a0800000000000000
-      internalID: -6504261302751008871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._8"
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 5
-        width: 47
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f9d47b60cc834ee0800000000000000
-      internalID: -1278023111178659344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._9"
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 5
-        width: 64
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45d9c0d8d65ecb610800000000000000
-      internalID: 1638436623136628052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._10"
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 1
-        width: 76
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad9e1f6a34a946540800000000000000
-      internalID: 5000291101642451418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._11"
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 5
-        width: 37
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d14c07eeed4884500800000000000000
-      internalID: 380700261530780701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
-        ao seu Rob\xF4._12"
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 5
-        width: 50
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac207fea8117d4820800000000000000
-      internalID: 2904101685552415434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Invista na f\xE1brica para reduzir a polui\xE7\xE3o e dar mais poder
         ao seu Rob\xF4._13"
       rect:
         serializedVersion: 2
-        x: 800
-        y: 5
-        width: 72
-        height: 31
+        x: 566
+        y: 0
+        width: 306
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
