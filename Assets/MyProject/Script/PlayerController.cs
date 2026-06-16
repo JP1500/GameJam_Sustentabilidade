@@ -10,16 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float lifeTime;
 
     public bool canMove;
-    bool canMoveLeft;
-    bool canMoveRight;
-    bool canMoveUp;
-    bool canMoveDown;
 
     public Animator anim;
 
     public static PlayerController instance;
 
     [Header("Componentes externos")]
+    [SerializeField] FixedJoystick moveJoystick;
     [SerializeField] public SpriteRenderer spriteRenderer;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] GameManager gameManager;
@@ -28,9 +25,8 @@ public class PlayerController : MonoBehaviour
     {
         speed = 5;
         canMove = true;
-        canMoveLeft = false;
-        canMoveRight = false;
 
+        moveJoystick = FindAnyObjectByType<FixedJoystick>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         gameManager = GetComponent<GameManager>();
@@ -49,37 +45,16 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            if (canMoveLeft && !canMoveRight && !canMoveUp && !canMoveDown)
-            {
-                rb.linearVelocityX = -speed;
-            }
-
-            else if (!canMoveLeft && canMoveRight && !canMoveUp && !canMoveDown)
-            {
-                rb.linearVelocityX = speed;
-            }
-            else if (!canMoveLeft && !canMoveRight && canMoveUp && !canMoveDown)
-            {
-                rb.linearVelocityY = speed;
-            }
-            else if (!canMoveLeft && !canMoveRight && !canMoveUp && canMoveDown)
-            {
-                rb.linearVelocityY = -speed;
-            }
-            else
-            {
-                rb.linearVelocityX = 0f;
-                rb.linearVelocityY = 0f;
-            }
+            rb.linearVelocityX = moveJoystick.Horizontal * speed;
+            rb.linearVelocityY = moveJoystick.Vertical * speed;
         }
-
     }
 
     public void MoveLeft()
     {
         if (canMove)
         {
-            canMoveLeft = true;
+            //canMoveLeft = true;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
             anim.SetBool("movendo", true);
@@ -90,7 +65,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveLeft = false;
+            //canMoveLeft = false;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
             anim.SetBool("movendo", false);
@@ -100,7 +75,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveRight = true;
+            //canMoveRight = true;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
             anim.SetBool("movendo", true);
@@ -111,7 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveRight = false;
+            //canMoveRight = false;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
             anim.SetBool("movendo", false);
@@ -121,7 +96,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveUp = true;
+            //canMoveUp = true;
             ResetLayers();
             anim.SetLayerWeight(2, 1);
             anim.SetBool("movendo", true);
@@ -131,7 +106,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveUp = false;
+            //canMoveUp = false;
             ResetLayers();
             anim.SetLayerWeight(2, 1);
             anim.SetBool("movendo", false);
@@ -141,7 +116,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveDown = true;
+            //canMoveDown = true;
             ResetLayers();
             anim.SetLayerWeight(0, 0);
             anim.SetBool("movendo", true);
@@ -151,7 +126,7 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            canMoveDown = false;
+            //canMoveDown = false;
             ResetLayers();
             anim.SetLayerWeight(0, 0);
             anim.SetBool("movendo", false);

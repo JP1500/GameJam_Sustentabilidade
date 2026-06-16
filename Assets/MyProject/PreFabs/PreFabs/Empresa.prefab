@@ -399,7 +399,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2641711204785444136, guid: 20e742cdd583fe24ca2636b176a4e2a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -782,10 +782,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 4274278474496759046}
   - {fileID: 2287789736569039728}
   - {fileID: 9161627163838264105}
   - {fileID: 8568571802467403619}
-  - {fileID: 4274278474496759046}
   - {fileID: 6997505579462461529}
   - {fileID: 4426931723201830306}
   m_Father: {fileID: 0}
