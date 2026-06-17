@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public SpriteRenderer spriteRenderer;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] GameManager gameManager;
+    [SerializeField] Transform posicao;
+
+
 
     private void Awake()
     {
@@ -34,6 +37,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         speed += gameManager.speedBonus;
         lifeTime += gameManager.timerBonus;
+        //posicao = transform.position;
     }
 
     void FixedUpdate()
@@ -47,93 +51,71 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocityX = moveJoystick.Horizontal * speed;
             rb.linearVelocityY = moveJoystick.Vertical * speed;
+            
         }
-    }
 
-    public void MoveLeft()
-    {
-        if (canMove)
+        if ((rb.linearVelocityX != 0) || (rb.linearVelocityY != 0))
         {
-            //canMoveLeft = true;
             ResetLayers();
-            anim.SetLayerWeight(1, 2);
+
             anim.SetBool("movendo", true);
-            spriteRenderer.flipX = true;
+
+
         }
-    }
-    public void StopMoveLeft()
-    {
-        if (canMove)
+        else
         {
-            //canMoveLeft = false;
+
             ResetLayers();
-            anim.SetLayerWeight(1, 2);
+
             anim.SetBool("movendo", false);
         }
+
+
     }
-    public void MoveRight()
+
+    void Start()
     {
-        if (canMove)
+        anim = GetComponent<Animator>();
+        //posicao = transform.position;
+    }
+
+    void Update()
+    {
+        Vector2 movimento = new Vector2(transform.position.x, transform.position.y); 
+
+        if (rb.linearVelocityX >= 0.3)
         {
-            //canMoveRight = true;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
-            anim.SetBool("movendo", true);
             spriteRenderer.flipX = false;
         }
-    }
-    public void StopMoveRight()
-    {
-        if (canMove)
+        else if (rb.linearVelocityX <= -0.3)
         {
-            //canMoveRight = false;
             ResetLayers();
             anim.SetLayerWeight(1, 2);
-            anim.SetBool("movendo", false);
+            spriteRenderer.flipX = true;
         }
-    }
-    public void MoveUp()
-    {
-        if (canMove)
+        if (rb.linearVelocityY >= 0.3)
         {
-            //canMoveUp = true;
             ResetLayers();
             anim.SetLayerWeight(2, 1);
-            anim.SetBool("movendo", true);
+            
+
         }
-    }
-    public void StopMoveUp()
-    {
-        if (canMove)
+        else if (rb.linearVelocityY <= -0.3)
         {
-            //canMoveUp = false;
             ResetLayers();
-            anim.SetLayerWeight(2, 1);
-            anim.SetBool("movendo", false);
+            anim.SetLayerWeight(0, 1);
+           
+
         }
-    }
-    public void MoveDown()
-    {
-        if (canMove)
-        {
-            //canMoveDown = true;
-            ResetLayers();
-            anim.SetLayerWeight(0, 0);
-            anim.SetBool("movendo", true);
-        }
-    }
-    public void StopMoveDown()
-    {
-        if (canMove)
-        {
-            //canMoveDown = false;
-            ResetLayers();
-            anim.SetLayerWeight(0, 0);
-            anim.SetBool("movendo", false);
-        }
+
+       
+
+       
     }
 
-    private void ResetLayers()
+private void ResetLayers()
     {
         anim.SetLayerWeight(0, 0);
         anim.SetLayerWeight(1, 0);
