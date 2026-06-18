@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: d9610aacca9ac5c4694c589ee0ec63c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -597429495188861907
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_0"
+  - first:
+      213: 4029188930875552112
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_1"
+  - first:
+      213: 1147165571440032865
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_2"
+  - first:
+      213: -6435650256324447587
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_3"
+  - first:
+      213: -2646441641916975378
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_4"
+  - first:
+      213: 2336310754434002527
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_5"
+  - first:
+      213: 9101833016861777136
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_6"
+  - first:
+      213: -1258389307354340375
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_7"
+  - first:
+      213: -8511096756815239265
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_8"
+  - first:
+      213: -203433854497297186
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_9"
+  - first:
+      213: -7610734901241437023
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_10"
+  - first:
+      213: 2242240004059751806
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_11"
+  - first:
+      213: 9102678761316698137
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_12"
+  - first:
+      213: 3903683899221000749
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_13"
+  - first:
+      213: -3915427959806039337
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_14"
+  - first:
+      213: -954629378181595481
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_15"
+  - first:
+      213: 13704699812140595
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_16"
+  - first:
+      213: -5875112553456064402
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_17"
+  - first:
+      213: 4817476599650845907
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_18"
+  - first:
+      213: 3006676159141038654
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_19"
+  - first:
+      213: 8923306113160390800
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_20"
+  - first:
+      213: -1394858841973219539
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_21"
+  - first:
+      213: -4324743308764954853
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_22"
+  - first:
+      213: 1916068316534189989
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_23"
+  - first:
+      213: -4448191570669340832
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_24"
+  - first:
+      213: 8497326097274607547
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_25"
+  - first:
+      213: 67598094290362642
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_26"
+  - first:
+      213: 167751220524332928
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_27"
+  - first:
+      213: -4413448552193380190
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_28"
+  - first:
+      213: 174450872643501501
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_29"
+  - first:
+      213: -6215894397379427408
+    second: "Melhore o rob\xF4 para otimizar a reciclagem_30"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c4de81a0185b7f0800000000000000
+      internalID: -597429495188861907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_1"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 4
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071f5cd2cfd8ae730800000000000000
+      internalID: 4029188930875552112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_2"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cbd30620d8bef00800000000000000
+      internalID: 1147165571440032865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_3"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92312d703affa6a0800000000000000
+      internalID: -6435650256324447587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_4"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6bcbe1953f54bd0800000000000000
+      internalID: -2646441641916975378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_5"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ea6fab04e3c6020800000000000000
+      internalID: 2336310754434002527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_6"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcd7feb7e4305e70800000000000000
+      internalID: 9101833016861777136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_7"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 4
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3aef9979d498ee0800000000000000
+      internalID: -1258389307354340375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_8"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f976c09e79282e980800000000000000
+      internalID: -8511096756815239265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_9"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc6667bcf14d2df0800000000000000
+      internalID: -203433854497297186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_10"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a426d34eec316690800000000000000
+      internalID: -7610734901241437023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_11"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 25
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e62f57690e1f10800000000000000
+      internalID: 2242240004059751806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_12"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91846c8fa16335e70800000000000000
+      internalID: 9102678761316698137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_13"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22ca70e2dbac2630800000000000000
+      internalID: 3903683899221000749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_14"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 4
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dae020f30b99a9c0800000000000000
+      internalID: -3915427959806039337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_15"
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae755d63a970c2f0800000000000000
+      internalID: -954629378181595481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_16"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3365e041a50b03000800000000000000
+      internalID: 13704699812140595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_17"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6820d3a248677ea0800000000000000
+      internalID: -5875112553456064402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_18"
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 4
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d402fb717d1bd240800000000000000
+      internalID: 4817476599650845907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_19"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 4
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3acc34690cd9b920800000000000000
+      internalID: 3006676159141038654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_20"
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0982ff8d1a3f5db70800000000000000
+      internalID: 8923306113160390800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_21"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9f54064774ace0800000000000000
+      internalID: -1394858841973219539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_22"
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f3158cfdc6bf3c0800000000000000
+      internalID: -4324743308764954853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_23"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 4
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afa66c6bfd379a10800000000000000
+      internalID: 1916068316534189989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_24"
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067fd518559d442c0800000000000000
+      internalID: -4448191570669340832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_25"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 4
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb795b090119ce570800000000000000
+      internalID: 8497326097274607547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_26"
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 4
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211abadcb1820f000800000000000000
+      internalID: 67598094290362642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_27"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087bdf5a8d8f35200800000000000000
+      internalID: 167751220524332928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_28"
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a03d0cdce740c2c0800000000000000
+      internalID: -4413448552193380190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_29"
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd3ca6f426cb6200800000000000000
+      internalID: 174450872643501501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Melhore o rob\xF4 para otimizar a reciclagem_30"
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 4
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3cbd29af4bcb9a0800000000000000
+      internalID: -6215894397379427408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Melhore o rob\xF4 para otimizar a reciclagem_0": -597429495188861907
+      "Melhore o rob\xF4 para otimizar a reciclagem_1": 4029188930875552112
+      "Melhore o rob\xF4 para otimizar a reciclagem_10": -7610734901241437023
+      "Melhore o rob\xF4 para otimizar a reciclagem_11": 2242240004059751806
+      "Melhore o rob\xF4 para otimizar a reciclagem_12": 9102678761316698137
+      "Melhore o rob\xF4 para otimizar a reciclagem_13": 3903683899221000749
+      "Melhore o rob\xF4 para otimizar a reciclagem_14": -3915427959806039337
+      "Melhore o rob\xF4 para otimizar a reciclagem_15": -954629378181595481
+      "Melhore o rob\xF4 para otimizar a reciclagem_16": 13704699812140595
+      "Melhore o rob\xF4 para otimizar a reciclagem_17": -5875112553456064402
+      "Melhore o rob\xF4 para otimizar a reciclagem_18": 4817476599650845907
+      "Melhore o rob\xF4 para otimizar a reciclagem_19": 3006676159141038654
+      "Melhore o rob\xF4 para otimizar a reciclagem_2": 1147165571440032865
+      "Melhore o rob\xF4 para otimizar a reciclagem_20": 8923306113160390800
+      "Melhore o rob\xF4 para otimizar a reciclagem_21": -1394858841973219539
+      "Melhore o rob\xF4 para otimizar a reciclagem_22": -4324743308764954853
+      "Melhore o rob\xF4 para otimizar a reciclagem_23": 1916068316534189989
+      "Melhore o rob\xF4 para otimizar a reciclagem_24": -4448191570669340832
+      "Melhore o rob\xF4 para otimizar a reciclagem_25": 8497326097274607547
+      "Melhore o rob\xF4 para otimizar a reciclagem_26": 67598094290362642
+      "Melhore o rob\xF4 para otimizar a reciclagem_27": 167751220524332928
+      "Melhore o rob\xF4 para otimizar a reciclagem_28": -4413448552193380190
+      "Melhore o rob\xF4 para otimizar a reciclagem_29": 174450872643501501
+      "Melhore o rob\xF4 para otimizar a reciclagem_3": -6435650256324447587
+      "Melhore o rob\xF4 para otimizar a reciclagem_30": -6215894397379427408
+      "Melhore o rob\xF4 para otimizar a reciclagem_4": -2646441641916975378
+      "Melhore o rob\xF4 para otimizar a reciclagem_5": 2336310754434002527
+      "Melhore o rob\xF4 para otimizar a reciclagem_6": 9101833016861777136
+      "Melhore o rob\xF4 para otimizar a reciclagem_7": -1258389307354340375
+      "Melhore o rob\xF4 para otimizar a reciclagem_8": -8511096756815239265
+      "Melhore o rob\xF4 para otimizar a reciclagem_9": -203433854497297186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,9 +10,10 @@ public class HudScore : MonoBehaviour
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
+        textScore.text = gameManager.totalPoints.ToString();
     }
     void Update()
     {
-        textScore.text = gameManager.totalPoints.ToString("00");
+        textScore.text = gameManager.totalPoints.ToString();
     }
 }
