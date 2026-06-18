@@ -53,7 +53,7 @@ public class Upgrades : MonoBehaviour
             isMax = true;
             valueText.text = "Valor: MAXIMO";
         }
-        else
+        else if (upgradeLevel != maxLevel)
         {
             isMax = false;
             valueText.text = "Valor:" + value;

@@ -22,8 +22,13 @@ public class Pontos : MonoBehaviour
     public void AddScore()
     {
         trashCollected++;
+
+        int ganho = 1 + gameManager.pointBonus;
+
         score += 1 + gameManager.pointBonus;
         gameManager.points += 1 + gameManager.pointBonus;
+
+        gameManager.AddPoints(ganho);
 
         Debug.Log("Pontos: " + score);
 

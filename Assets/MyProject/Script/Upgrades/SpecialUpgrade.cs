@@ -1,4 +1,6 @@
 using System;
+using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,9 +10,11 @@ public class SpecialUpgrade : MonoBehaviour
     [SerializeField] float timerBonus;
     [SerializeField] int pointBonus;
     [SerializeField] float speedBonus;
+    [SerializeField] float barPoints;
 
+    [Header("Valores e compras")]
+    [SerializeField] int requireLevel;
     [SerializeField] int value;
-
     [SerializeField] int intBuyied;
     [SerializeField] bool isBuyied;
 
@@ -21,6 +25,8 @@ public class SpecialUpgrade : MonoBehaviour
     [SerializeField] SustentoBar sustentoBar;
     [SerializeField] public GameObject empresaBoa;
     [SerializeField] public GameObject empresaRuim;
+    [SerializeField] GameObject canBuy;
+    [SerializeField] TextMeshProUGUI valueText;
 
     private void Awake()
     {
@@ -34,27 +40,36 @@ public class SpecialUpgrade : MonoBehaviour
             isBuyied = true;
             empresaBoa.SetActive(true);
             empresaRuim.SetActive(false);
+            canBuy.SetActive(false);
+            valueText.text = "Valor: COMPRADO";
+
         }
         else
         {
+            canBuy.SetActive(true);
             isBuyied = false;
             empresaBoa.SetActive(false);
             empresaRuim.SetActive(true);
+            valueText.text = "Valor: " + value;
         }
     }
-
+    private void Update()
+    {
+        AllIsMax();
+        canBuy.SetActive(false);
+    }
     public void OnClick()
     {
-        if ((gameManager.totalPoints >= value) && (AllIsMax()))
+        if ((gameManager.totalPoints >= value) && (AllIsMax()) && !isBuyied)
         {
             gameManager.totalPoints -= value;
             intBuyied = 1;
             isBuyied = true;
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
-            sustentoBar.value += 20;
+            sustentoBar.value += barPoints;
             empresaBoa.SetActive(true);
             empresaRuim.SetActive(false);
-            gameObject.SetActive(false);
+            valueText.text = "Valor: COMPRADO";
             foreach (Upgrades upgrades in upgrades)
             {
                 upgrades.maxLevel += 5;
@@ -64,14 +79,18 @@ public class SpecialUpgrade : MonoBehaviour
 
     bool AllIsMax()
     {
-        foreach (Upgrades upgrades in upgrades)
+        foreach (Upgrades upgrade in upgrades)
         {
-            if (!upgrades.isMax)
+            if (!upgrade.isMax || upgrade.upgradeLevel < requireLevel)
             {
+                Debug.Log("Não estou podendo ser comprado");
+                canBuy.SetActive(true);
                 return false;
             }
         }
-        Debug.Log("Estou podendo ser comprado");
+
+        Debug.Log("Posso ser comprado");
+        canBuy.SetActive(false);
         return true;
     }
 }

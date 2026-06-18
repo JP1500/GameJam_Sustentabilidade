@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 313cb0786e105254280ebefd112c0197
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8041506910346488824
+    second: "Invista em energia limpa para transformar sua f\xE1brica_0"
+  - first:
+      213: 3309527809094231644
+    second: "Invista em energia limpa para transformar sua f\xE1brica_1"
+  - first:
+      213: -8288627944076671005
+    second: "Invista em energia limpa para transformar sua f\xE1brica_2"
+  - first:
+      213: 5593082795438197368
+    second: "Invista em energia limpa para transformar sua f\xE1brica_3"
+  - first:
+      213: 9189371899485596293
+    second: "Invista em energia limpa para transformar sua f\xE1brica_4"
+  - first:
+      213: 650418714365217287
+    second: "Invista em energia limpa para transformar sua f\xE1brica_5"
+  - first:
+      213: -1791905457102781103
+    second: "Invista em energia limpa para transformar sua f\xE1brica_6"
+  - first:
+      213: 3504375814287401622
+    second: "Invista em energia limpa para transformar sua f\xE1brica_7"
+  - first:
+      213: 2178076732301877646
+    second: "Invista em energia limpa para transformar sua f\xE1brica_8"
+  - first:
+      213: 2444313293889342225
+    second: "Invista em energia limpa para transformar sua f\xE1brica_9"
+  - first:
+      213: -2913727338784038364
+    second: "Invista em energia limpa para transformar sua f\xE1brica_10"
+  - first:
+      213: 3202806271871339747
+    second: "Invista em energia limpa para transformar sua f\xE1brica_11"
+  - first:
+      213: -2936675376853585335
+    second: "Invista em energia limpa para transformar sua f\xE1brica_12"
+  - first:
+      213: 3587779228439037858
+    second: "Invista em energia limpa para transformar sua f\xE1brica_13"
+  - first:
+      213: 5850211151753998255
+    second: "Invista em energia limpa para transformar sua f\xE1brica_14"
+  - first:
+      213: -3832880199173397157
+    second: "Invista em energia limpa para transformar sua f\xE1brica_15"
+  - first:
+      213: -1109282053523229080
+    second: "Invista em energia limpa para transformar sua f\xE1brica_16"
+  - first:
+      213: -8580673553441146356
+    second: "Invista em energia limpa para transformar sua f\xE1brica_17"
+  - first:
+      213: 195221965793528779
+    second: "Invista em energia limpa para transformar sua f\xE1brica_18"
+  - first:
+      213: 5179356232601738475
+    second: "Invista em energia limpa para transformar sua f\xE1brica_19"
+  - first:
+      213: -8263697016837736046
+    second: "Invista em energia limpa para transformar sua f\xE1brica_20"
+  - first:
+      213: -4343382377449637936
+    second: "Invista em energia limpa para transformar sua f\xE1brica_21"
+  - first:
+      213: 886766767215958096
+    second: "Invista em energia limpa para transformar sua f\xE1brica_22"
+  - first:
+      213: -6717218158736683281
+    second: "Invista em energia limpa para transformar sua f\xE1brica_23"
+  - first:
+      213: 9003009136150310643
+    second: "Invista em energia limpa para transformar sua f\xE1brica_24"
+  - first:
+      213: -2206265175504785900
+    second: "Invista em energia limpa para transformar sua f\xE1brica_25"
+  - first:
+      213: 7232526733933762483
+    second: "Invista em energia limpa para transformar sua f\xE1brica_26"
+  - first:
+      213: -593588331737280249
+    second: "Invista em energia limpa para transformar sua f\xE1brica_27"
+  - first:
+      213: -7905247447557446617
+    second: "Invista em energia limpa para transformar sua f\xE1brica_28"
+  - first:
+      213: 1343287649442180003
+    second: "Invista em energia limpa para transformar sua f\xE1brica_29"
+  - first:
+      213: 8329040494223507078
+    second: "Invista em energia limpa para transformar sua f\xE1brica_30"
+  - first:
+      213: 6238690095161491800
+    second: "Invista em energia limpa para transformar sua f\xE1brica_31"
+  - first:
+      213: 3480905158786845216
+    second: "Invista em energia limpa para transformar sua f\xE1brica_32"
+  - first:
+      213: 9074253609166816221
+    second: "Invista em energia limpa para transformar sua f\xE1brica_33"
+  - first:
+      213: -5720037662763543869
+    second: "Invista em energia limpa para transformar sua f\xE1brica_34"
+  - first:
+      213: -3572979405175926220
+    second: "Invista em energia limpa para transformar sua f\xE1brica_35"
+  - first:
+      213: 4769451648008379048
+    second: "Invista em energia limpa para transformar sua f\xE1brica_36"
+  - first:
+      213: 5771192472713318256
+    second: "Invista em energia limpa para transformar sua f\xE1brica_37"
+  - first:
+      213: -646758231359605428
+    second: "Invista em energia limpa para transformar sua f\xE1brica_38"
+  - first:
+      213: 4515888553064964166
+    second: "Invista em energia limpa para transformar sua f\xE1brica_39"
+  - first:
+      213: -9161003014245442971
+    second: "Invista em energia limpa para transformar sua f\xE1brica_40"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb2d02edeb299f60800000000000000
+      internalID: 8041506910346488824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_1"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56a65bf10ecded20800000000000000
+      internalID: 3309527809094231644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_2"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e70fe5ccc0e8fc80800000000000000
+      internalID: -8288627944076671005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_3"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 40
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a41754b2f9e9d40800000000000000
+      internalID: 5593082795438197368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_4"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 40
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58aabc12e05378f70800000000000000
+      internalID: 9189371899485596293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_5"
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a4109ef50c60900800000000000000
+      internalID: 650418714365217287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_6"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1550e4e0b7fd127e0800000000000000
+      internalID: -1791905457102781103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_7"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69222127c3b02a030800000000000000
+      internalID: 3504375814287401622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_8"
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81a5628f351a3e10800000000000000
+      internalID: 2178076732301877646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_9"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b0a028df1fbe120800000000000000
+      internalID: 2444313293889342225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_10"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422ee674c6c5097d0800000000000000
+      internalID: -2913727338784038364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_11"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecc847c557a27c20800000000000000
+      internalID: 3202806271871339747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_12"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 40
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942710ecd45de37d0800000000000000
+      internalID: -2936675376853585335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_13"
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 40
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a742ab033a5ac130800000000000000
+      internalID: 3587779228439037858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_14"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 35
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf6359fb00203150800000000000000
+      internalID: 5850211151753998255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_15"
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 40
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5524ad24cfdecac0800000000000000
+      internalID: -3832880199173397157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_16"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 35
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866380c79d90b90f0800000000000000
+      internalID: -1109282053523229080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_17"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a3d819dd25be880800000000000000
+      internalID: -8580673553441146356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_18"
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 40
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb0a73f75195b200800000000000000
+      internalID: 195221965793528779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_19"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec9e695d05c0e740800000000000000
+      internalID: 5179356232601738475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_20"
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 40
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2997eeb9853715d80800000000000000
+      internalID: -8263697016837736046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_21"
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 40
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d73c6c6db439b3c0800000000000000
+      internalID: -4343382377449637936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_22"
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058578e2dad6e4c00800000000000000
+      internalID: 886766767215958096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_23"
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 40
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee42b98ca5a7c2a0800000000000000
+      internalID: -6717218158736683281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_24"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fee5ddfb1d11fc70800000000000000
+      internalID: 9003009136150310643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_25"
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 40
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ee8bd1385c161e0800000000000000
+      internalID: -2206265175504785900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_26"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 40
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b753a4beb81f5460800000000000000
+      internalID: 7232526733933762483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_27"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 40
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7019bf7ae8623c7f0800000000000000
+      internalID: -593588331737280249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_28"
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 40
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72466ca845bea4290800000000000000
+      internalID: -7905247447557446617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_29"
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 40
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abab28000154a210800000000000000
+      internalID: 1343287649442180003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_30"
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 40
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e390a4332b69370800000000000000
+      internalID: 8329040494223507078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_31"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85149d96697449650800000000000000
+      internalID: 6238690095161491800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_32"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 40
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a805e9cc8ae4030800000000000000
+      internalID: 3480905158786845216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_33"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 40
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3c13084993eed70800000000000000
+      internalID: 9074253609166816221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_34"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c29f114d085e90b0800000000000000
+      internalID: -5720037662763543869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_35"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432d3b4592a3a6ec0800000000000000
+      internalID: -3572979405175926220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_36"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aad0f4110f703240800000000000000
+      internalID: 4769451648008379048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_37"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f4c721af4671050800000000000000
+      internalID: 5771192472713318256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_38"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c453044b0d04607f0800000000000000
+      internalID: -646758231359605428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_39"
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640a0ba76b8abae30800000000000000
+      internalID: 4515888553064964166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Invista em energia limpa para transformar sua f\xE1brica_40"
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a1e9dab449dd080800000000000000
+      internalID: -9161003014245442971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Invista em energia limpa para transformar sua f\xE1brica_0": 8041506910346488824
+      "Invista em energia limpa para transformar sua f\xE1brica_1": 3309527809094231644
+      "Invista em energia limpa para transformar sua f\xE1brica_10": -2913727338784038364
+      "Invista em energia limpa para transformar sua f\xE1brica_11": 3202806271871339747
+      "Invista em energia limpa para transformar sua f\xE1brica_12": -2936675376853585335
+      "Invista em energia limpa para transformar sua f\xE1brica_13": 3587779228439037858
+      "Invista em energia limpa para transformar sua f\xE1brica_14": 5850211151753998255
+      "Invista em energia limpa para transformar sua f\xE1brica_15": -3832880199173397157
+      "Invista em energia limpa para transformar sua f\xE1brica_16": -1109282053523229080
+      "Invista em energia limpa para transformar sua f\xE1brica_17": -8580673553441146356
+      "Invista em energia limpa para transformar sua f\xE1brica_18": 195221965793528779
+      "Invista em energia limpa para transformar sua f\xE1brica_19": 5179356232601738475
+      "Invista em energia limpa para transformar sua f\xE1brica_2": -8288627944076671005
+      "Invista em energia limpa para transformar sua f\xE1brica_20": -8263697016837736046
+      "Invista em energia limpa para transformar sua f\xE1brica_21": -4343382377449637936
+      "Invista em energia limpa para transformar sua f\xE1brica_22": 886766767215958096
+      "Invista em energia limpa para transformar sua f\xE1brica_23": -6717218158736683281
+      "Invista em energia limpa para transformar sua f\xE1brica_24": 9003009136150310643
+      "Invista em energia limpa para transformar sua f\xE1brica_25": -2206265175504785900
+      "Invista em energia limpa para transformar sua f\xE1brica_26": 7232526733933762483
+      "Invista em energia limpa para transformar sua f\xE1brica_27": -593588331737280249
+      "Invista em energia limpa para transformar sua f\xE1brica_28": -7905247447557446617
+      "Invista em energia limpa para transformar sua f\xE1brica_29": 1343287649442180003
+      "Invista em energia limpa para transformar sua f\xE1brica_3": 5593082795438197368
+      "Invista em energia limpa para transformar sua f\xE1brica_30": 8329040494223507078
+      "Invista em energia limpa para transformar sua f\xE1brica_31": 6238690095161491800
+      "Invista em energia limpa para transformar sua f\xE1brica_32": 3480905158786845216
+      "Invista em energia limpa para transformar sua f\xE1brica_33": 9074253609166816221
+      "Invista em energia limpa para transformar sua f\xE1brica_34": -5720037662763543869
+      "Invista em energia limpa para transformar sua f\xE1brica_35": -3572979405175926220
+      "Invista em energia limpa para transformar sua f\xE1brica_36": 4769451648008379048
+      "Invista em energia limpa para transformar sua f\xE1brica_37": 5771192472713318256
+      "Invista em energia limpa para transformar sua f\xE1brica_38": -646758231359605428
+      "Invista em energia limpa para transformar sua f\xE1brica_39": 4515888553064964166
+      "Invista em energia limpa para transformar sua f\xE1brica_4": 9189371899485596293
+      "Invista em energia limpa para transformar sua f\xE1brica_40": -9161003014245442971
+      "Invista em energia limpa para transformar sua f\xE1brica_5": 650418714365217287
+      "Invista em energia limpa para transformar sua f\xE1brica_6": -1791905457102781103
+      "Invista em energia limpa para transformar sua f\xE1brica_7": 3504375814287401622
+      "Invista em energia limpa para transformar sua f\xE1brica_8": 2178076732301877646
+      "Invista em energia limpa para transformar sua f\xE1brica_9": 2444313293889342225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

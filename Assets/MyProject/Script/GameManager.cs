@@ -37,16 +37,10 @@ public class GameManager : MonoBehaviour
         pointBonus = PlayerPrefs.GetInt("PointBonus", 0);
 
     }
-
-    private void Update()
+    public void AddPoints(int amount)
     {
-        if (points != 0)
-        {
-            totalPoints += points;
-            PlayerPrefs.SetInt("totalPoints", totalPoints);
-            PlayerPrefs.Save();
-
-            points = 0;
-        }
+        totalPoints += amount;
+        PlayerPrefs.SetInt("totalPoints", totalPoints);
+        PlayerPrefs.Save();
     }
 }
