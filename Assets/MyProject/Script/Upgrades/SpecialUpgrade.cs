@@ -19,6 +19,8 @@ public class SpecialUpgrade : MonoBehaviour
     [Header("Componentes externos")]
     [SerializeField] GameManager gameManager;
     [SerializeField] SustentoBar sustentoBar;
+    [SerializeField] public GameObject empresaBoa;
+    [SerializeField] public GameObject empresaRuim;
 
     private void Awake()
     {
@@ -30,10 +32,14 @@ public class SpecialUpgrade : MonoBehaviour
         if (intBuyied == 1)
         {
             isBuyied = true;
+            empresaBoa.SetActive(true);
+            empresaRuim.SetActive(false);
         }
         else
         {
             isBuyied = false;
+            empresaBoa.SetActive(false);
+            empresaRuim.SetActive(true);
         }
     }
 
@@ -46,6 +52,8 @@ public class SpecialUpgrade : MonoBehaviour
             isBuyied = true;
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
             sustentoBar.value += 20;
+            empresaBoa.SetActive(true);
+            empresaRuim.SetActive(false);
             gameObject.SetActive(false);
             foreach (Upgrades upgrades in upgrades)
             {
