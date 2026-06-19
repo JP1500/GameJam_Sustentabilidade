@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameManager gameManager;
     [SerializeField] Transform posicao;
 
+    
+
+
 
 
     private void Awake()

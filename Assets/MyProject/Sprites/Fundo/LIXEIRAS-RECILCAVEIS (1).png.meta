@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e35629c0d44297648a8a486c460fac38
+guid: 7768807025e32c14b9bd7424863c6f8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6318537950102587613
-    second: "Sem t\xEDtulo 38 c\xF3pia 2-825c_0"
-  - first:
-      213: 8770039282307004566
-    second: "Sem t\xEDtulo 38 c\xF3pia 2-825c_1"
-  - first:
-      213: 752942559001830510
-    second: "Sem t\xEDtulo 38 c\xF3pia 2-825c_2"
-  - first:
-      213: 9101344665562874964
-    second: "Sem t\xEDtulo 38 c\xF3pia 2-825c_3"
+      213: -8151024233725127509
+    second: LIXEIRAS-RECILCAVEIS (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Sem t\xEDtulo 38 c\xF3pia 2-825c_0"
+      name: LIXEIRAS-RECILCAVEIS (1)_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6
-        width: 179
-        height: 82
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3277f40263b0058a0800000000000000
-      internalID: -6318537950102587613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sem t\xEDtulo 38 c\xF3pia 2-825c_1"
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 6
-        width: 179
-        height: 82
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6987128f24075b970800000000000000
-      internalID: 8770039282307004566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sem t\xEDtulo 38 c\xF3pia 2-825c_2"
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 6
-        width: 178
-        height: 82
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e64e395a44df27a00800000000000000
-      internalID: 752942559001830510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sem t\xEDtulo 38 c\xF3pia 2-825c_3"
-      rect:
-        serializedVersion: 2
-        x: 520
+        x: 11
         y: 0
-        width: 32
-        height: 11
+        width: 626
+        height: 221
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454854990c87e4e70800000000000000
-      internalID: 9101344665562874964
+      spriteID: ba4963935aeb1ee80800000000000000
+      internalID: -8151024233725127509
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6892e8830505aa648945af75403fa24f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Sem t\xEDtulo 38 c\xF3pia 2-825c_0": -6318537950102587613
-      "Sem t\xEDtulo 38 c\xF3pia 2-825c_1": 8770039282307004566
-      "Sem t\xEDtulo 38 c\xF3pia 2-825c_2": 752942559001830510
-      "Sem t\xEDtulo 38 c\xF3pia 2-825c_3": 9101344665562874964
+      LIXEIRAS-RECILCAVEIS (1)_0: -8151024233725127509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

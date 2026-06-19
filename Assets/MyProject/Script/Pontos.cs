@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 public class Pontos : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Pontos : MonoBehaviour
     public int score;
     public static Pontos instance;
     [SerializeField] GameManager gameManager;
+
+    [SerializeField] AudioSource coletarSom;
 
     private void Awake()
     {
@@ -45,6 +48,7 @@ public class Pontos : MonoBehaviour
         if (other.CompareTag("lixo"))
         {
             AddScore();
+            coletarSom.Play();
         }
     }
 }
