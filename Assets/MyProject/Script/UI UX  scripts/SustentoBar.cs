@@ -8,11 +8,13 @@ public class SustentoBar : MonoBehaviour
 {
     [SerializeField] Slider slideBar;
     [SerializeField] TextMeshProUGUI valueText;
+    [SerializeField] GameObject victoryButton;
 
     [SerializeField] public float value;
 
     private void Awake()
     {
+        victoryButton.SetActive(false);
         slideBar = GetComponent<Slider>();
         valueText = valueText = GetComponentInChildren<TextMeshProUGUI>();
         value = PlayerPrefs.GetFloat("sustentoBar", value);
@@ -26,5 +28,10 @@ public class SustentoBar : MonoBehaviour
         valueText.text = value.ToString() + "%";
         slideBar.value = value;
         PlayerPrefs.SetFloat("sustentoBar", value);
+
+        if (slideBar.value >= 100)
+        {
+            victoryButton.SetActive(true);
+        }
     }
 }

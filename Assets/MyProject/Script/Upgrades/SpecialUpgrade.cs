@@ -24,8 +24,8 @@ public class SpecialUpgrade : MonoBehaviour
     [Header("Componentes externos")]
     [SerializeField] GameManager gameManager;
     [SerializeField] SustentoBar sustentoBar;
-    [SerializeField] public GameObject empresaBoa;
-    [SerializeField] public GameObject empresaRuim;
+    [SerializeField] public GameObject[] empresaBoa;
+    [SerializeField] public GameObject[] empresaRuim;
     [SerializeField] GameObject canBuy;
     [SerializeField] TextMeshProUGUI valueText;
 
@@ -44,8 +44,8 @@ public class SpecialUpgrade : MonoBehaviour
         if (intBuyied == 1)
         {
             isBuyied = true;
-            empresaBoa.SetActive(true);
-            empresaRuim.SetActive(false);
+            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(true); }
+            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(false); }
             canBuy.SetActive(false);
             valueText.text = "Valor: COMPRADO";
 
@@ -54,8 +54,8 @@ public class SpecialUpgrade : MonoBehaviour
         {
             canBuy.SetActive(true);
             isBuyied = false;
-            empresaBoa.SetActive(false);
-            empresaRuim.SetActive(true);
+            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(false); }
+            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(true); }
             valueText.text = "Valor: " + value;
         }
     }
@@ -73,8 +73,8 @@ public class SpecialUpgrade : MonoBehaviour
             Debug.Log("Salvando upgrade:" + objectId);
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
             sustentoBar.value += barPoints;
-            empresaBoa.SetActive(true);
-            empresaRuim.SetActive(false);
+            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(true); }
+            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(false); }
             valueText.text = "Valor: COMPRADO";
             PlayerPrefs.Save();
             foreach (Upgrades upgrades in upgrades)
