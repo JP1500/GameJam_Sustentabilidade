@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class SpecialUpgrade : MonoBehaviour
 {
@@ -33,7 +34,12 @@ public class SpecialUpgrade : MonoBehaviour
         upgrades = FindObjectsByType<Upgrades>(FindObjectsSortMode.None);
         sustentoBar = FindAnyObjectByType<SustentoBar>();
         gameManager =FindAnyObjectByType<GameManager>();
-        intBuyied = PlayerPrefs.GetInt(objectId + "isBuyied", intBuyied);
+
+        Debug.Log("Tentando carregar: " + objectId);
+
+        intBuyied = PlayerPrefs.GetInt(objectId + "isBuyied", 0);
+
+        Debug.Log("Valor carregado: " + intBuyied);
 
         if (intBuyied == 1)
         {
@@ -56,7 +62,6 @@ public class SpecialUpgrade : MonoBehaviour
     private void Update()
     {
         AllIsMax();
-        canBuy.SetActive(false);
     }
     public void OnClick()
     {
@@ -65,15 +70,35 @@ public class SpecialUpgrade : MonoBehaviour
             gameManager.totalPoints -= value;
             intBuyied = 1;
             isBuyied = true;
+            Debug.Log("Salvando upgrade:" + objectId);
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
             sustentoBar.value += barPoints;
             empresaBoa.SetActive(true);
             empresaRuim.SetActive(false);
             valueText.text = "Valor: COMPRADO";
+            PlayerPrefs.Save();
             foreach (Upgrades upgrades in upgrades)
             {
                 upgrades.maxLevel += 5;
             }
+
+            if (objectId == "Painel Solares")
+            {
+                gameManager.solarPanel = true;
+                PlayerPrefs.SetInt("SolarPanel", 1);
+            }
+
+            else if (objectId == "Turbina Eolicas")
+            {
+                gameManager.aeolica = true;
+                PlayerPrefs.SetInt("Aeolica", 1);
+            }
+            else if (objectId == "Usina Hidreletrica")
+            {
+                gameManager.hidroeEletrica = true;
+                PlayerPrefs.SetInt("Hidreletrica", 1);
+            }
+            PlayerPrefs.Save();
         }
     }
 

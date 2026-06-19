@@ -1655,10 +1655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e27776ae54e854487674dc241a4844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlsSide
-  gameManager: {fileID: 144624197}
-  restart: {fileID: 0}
-  battery: {fileID: 1138197946}
-  controls: {fileID: 0}
 --- !u!1 &484322296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,6 +1730,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484322296}
   m_CullTransparentMesh: 1
+--- !u!1 &539426342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 539426344}
+  - component: {fileID: 539426343}
+  m_Layer: 0
+  m_Name: CheckEmpresa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &539426343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539426342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84aa86838affa35418b83bf39542bcf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EmpresaMudando
+  gameManager: {fileID: 144624197}
+  goodSolarPanelChanges:
+  - {fileID: 2095298852}
+  goodHidreletricaChanges: []
+  goodAeolicaChanges: []
+  badSolarPanelChanges:
+  - {fileID: 1352787814}
+  badHidreletricaChanges: []
+  badAeolicaChanges: []
+--- !u!4 &539426344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539426342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 282, y: 158.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &546114106
 GameObject:
   m_ObjectHideFlags: 0
@@ -174955,7 +175004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &818890264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -177543,6 +177592,11 @@ Transform:
   - {fileID: 919233494}
   m_Father: {fileID: 1484202411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1352787814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4198334854616518927, guid: 869f11a3a54d0574ea85a0a8dbc1c02a, type: 3}
+  m_PrefabInstance: {fileID: 267426964}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1386075431
 GameObject:
   m_ObjectHideFlags: 0
@@ -180484,6 +180538,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090112706}
   m_CullTransparentMesh: 1
+--- !u!1 &2095298852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7904447213027167736, guid: 869f11a3a54d0574ea85a0a8dbc1c02a, type: 3}
+  m_PrefabInstance: {fileID: 267426964}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2133766085
 GameObject:
   m_ObjectHideFlags: 0
@@ -180843,3 +180902,4 @@ SceneRoots:
   - {fileID: 742108548}
   - {fileID: 1484202411}
   - {fileID: 615385567}
+  - {fileID: 539426344}

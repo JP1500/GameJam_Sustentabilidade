@@ -1,5 +1,6 @@
  using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class Upgrades : MonoBehaviour
@@ -34,6 +35,8 @@ public class Upgrades : MonoBehaviour
 
         upgradeLevel =PlayerPrefs.GetInt(objectId + "upgradeLevel", upgradeLevel);
         value = PlayerPrefs.GetInt(objectId + "upgradeValue", value);
+        maxLevel = PlayerPrefs.GetInt(objectId + "maxLevel", maxLevel);
+
         if (upgradeLevel == maxLevel)
         {
             isMax = true;
@@ -75,12 +78,21 @@ public class Upgrades : MonoBehaviour
 
             PlayerPrefs.SetInt(objectId + "upgradeLevel", upgradeLevel);
             PlayerPrefs.SetInt(objectId + "upgradeValue", value);
+            PlayerPrefs.SetInt(objectId + "maxLevel", maxLevel);
 
             PlayerPrefs.SetFloat("TimerBonus", gameManager.timerBonus);
             PlayerPrefs.SetFloat("SpeedBonus", gameManager.speedBonus);
             PlayerPrefs.SetInt("PointBonus", gameManager.pointBonus);
             PlayerPrefs.Save();
         }
+    }
+
+    public void SavePlayerPrefs()
+    {
+        PlayerPrefs.SetInt(objectId + "upgradeLevel", upgradeLevel);
+        PlayerPrefs.SetInt(objectId + "upgradeValue", value);
+        PlayerPrefs.SetInt(objectId + "maxLevel", maxLevel);
+        PlayerPrefs.Save();
     }
 
     public void IncreaseValue()

@@ -15,8 +15,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int pointBonus;
     [SerializeField] public float speedBonus;
 
-    [Header("Configurações de acessibilidade")]
-    [SerializeField] public bool rightSide;
+    [Header("Fabrica Upgradeada")]
+    public bool solarPanel;
+    public bool hidroeEletrica;
+    public bool aeolica;
 
     private void Awake()
     {
@@ -36,6 +38,9 @@ public class GameManager : MonoBehaviour
         speedBonus = PlayerPrefs.GetFloat("SpeedBonus", 0);
         pointBonus = PlayerPrefs.GetInt("PointBonus", 0);
 
+        solarPanel = PlayerPrefs.GetInt("SolarPanel", 0) == 1;
+        aeolica = PlayerPrefs.GetInt("Aeolica", 0) == 1;
+        hidroeEletrica = PlayerPrefs.GetInt("Hidreletrica", 0) == 1;
     }
     public void AddPoints(int amount)
     {
