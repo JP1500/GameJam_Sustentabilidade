@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     [Header("Pontos")]
     [SerializeField] public int totalPoints;
-    [SerializeField] public int points;
 
     public static GameManager instance;
 
@@ -44,7 +43,11 @@ public class GameManager : MonoBehaviour
     }
     public void AddPoints(int amount)
     {
+        Debug.Log("Antes: " + totalPoints); 
+
         totalPoints += amount;
+
+        Debug.Log("Depois: " + totalPoints);
         PlayerPrefs.SetInt("totalPoints", totalPoints);
         PlayerPrefs.Save();
     }

@@ -15,6 +15,7 @@ public class Timer : MonoBehaviour
     [SerializeField] public PlayerController playerController;
 
     [Header("Transição de cenas")]
+    [SerializeField] public GameObject gameStart;
     [SerializeField] public GameObject transitionOut;
     [SerializeField] public string sceneName;
 
@@ -32,22 +33,26 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        if (currentTime >= 0)
+        if (!
+            gameStart.activeInHierarchy)
         {
-            currentTime -= Time.deltaTime;
+            if (currentTime >= 0)
+            {
+                currentTime -= Time.deltaTime;
 
-        }
+            }
 
-        else if (currentTime <= 0)
-        {
-            transitionOut.SetActive(true);
-            changeScene = FindAnyObjectByType<ChangeScene>();
-            playerController.canMove = false;
-            playerController.spriteRenderer.color = Color.blue;
-            playerController.speed = 0f;
-            changeScene.StartFade();
-            Debug.Log("Carregando cena");
-            SceneManager.LoadScene("sceneName");
+            else if (currentTime <= 0)
+            {
+                transitionOut.SetActive(true);
+                changeScene = FindAnyObjectByType<ChangeScene>();
+                playerController.canMove = false;
+                playerController.spriteRenderer.color = Color.blue;
+                playerController.speed = 0f;
+                changeScene.StartFade();
+                Debug.Log("Carregando cena");
+                SceneManager.LoadScene("sceneName");
+            }
         }
     }
 }

@@ -67,6 +67,7 @@ public class SpecialUpgrade : MonoBehaviour
     {
         if ((gameManager.totalPoints >= value) && (AllIsMax()) && !isBuyied)
         {
+            Debug.Log("Depois da compra: " + gameManager.totalPoints);
             gameManager.totalPoints -= value;
             intBuyied = 1;
             isBuyied = true;
@@ -99,6 +100,7 @@ public class SpecialUpgrade : MonoBehaviour
                 PlayerPrefs.SetInt("Hidreletrica", 1);
             }
             PlayerPrefs.Save();
+            Debug.Log("Depois da compra: " + gameManager.totalPoints);
         }
     }
 

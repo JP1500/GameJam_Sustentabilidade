@@ -1014,7 +1014,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3508,8 +3508,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ao comprar o maximo todos os upgrades do rob\xF4, voc\xEA conseguirar
-    libera a compra dos upgrades especiais."
+  m_text: "Ao comprar o m\xE1ximo de todos os upgrades do rob\xF4, voc\xEA conseguir\xE1
+    liberar a compra dos upgrades especiais."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4900,8 +4900,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Para movimentar o personagem ultilize o bot\xE3o no canto inferior da
-    tela e mova ele para a dire\xE7\xE3o que quer mover o personagem."
+  m_text: "Para movimentar o personagem, utilize o bot\xE3o no canto inferior esquerdo
+    da tela e mova ele para a dire\xE7\xE3o que quer se mover."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4967,7 +4967,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -664.20636, y: 0, z: 176.65291, w: 16.57803}
+  m_margin: {x: -684.85095, y: 0, z: 176.65291, w: 16.57803}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6512,8 +6512,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ajude o robo coletar os lixos, para ganhar dinhero em recompensa para poder
-    evoluir seu robo e sua empresa.
+  m_text: "Ajude o rob\xF4 a coletar os lixos para ganhar dinheiro como recompensa,
+    para assim poder evoluir seu rob\xF4 e sua empresa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
