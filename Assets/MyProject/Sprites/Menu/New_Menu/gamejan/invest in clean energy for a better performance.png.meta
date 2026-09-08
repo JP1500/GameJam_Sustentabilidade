@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: ba7f6e8321160d943b29ce960802578b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1863599663529802437
+    second: invest in clean energy for a better performance_0
+  - first:
+      213: 6556709391772318188
+    second: invest in clean energy for a better performance_1
+  - first:
+      213: -2025610512497576056
+    second: invest in clean energy for a better performance_2
+  - first:
+      213: -2928512477114229819
+    second: invest in clean energy for a better performance_3
+  - first:
+      213: 5824364903630953989
+    second: invest in clean energy for a better performance_4
+  - first:
+      213: 3179058969223821072
+    second: invest in clean energy for a better performance_5
+  - first:
+      213: 9118672737909730663
+    second: invest in clean energy for a better performance_6
+  - first:
+      213: -8479359419109530732
+    second: invest in clean energy for a better performance_7
+  - first:
+      213: -7780256194225915969
+    second: invest in clean energy for a better performance_8
+  - first:
+      213: -8579679379823520275
+    second: invest in clean energy for a better performance_9
+  - first:
+      213: -8056709754056192052
+    second: invest in clean energy for a better performance_10
+  - first:
+      213: -1697446530414104539
+    second: invest in clean energy for a better performance_11
+  - first:
+      213: -7984272870064170063
+    second: invest in clean energy for a better performance_12
+  - first:
+      213: 793541251080519590
+    second: invest in clean energy for a better performance_13
+  - first:
+      213: 3849719373731716983
+    second: invest in clean energy for a better performance_14
+  - first:
+      213: 8943524326116353351
+    second: invest in clean energy for a better performance_15
+  - first:
+      213: 6390929255127642389
+    second: invest in clean energy for a better performance_16
+  - first:
+      213: 473396553442664751
+    second: invest in clean energy for a better performance_17
+  - first:
+      213: -9158369758209632801
+    second: invest in clean energy for a better performance_18
+  - first:
+      213: -3509994792977868721
+    second: invest in clean energy for a better performance_19
+  - first:
+      213: 4268243775016824161
+    second: invest in clean energy for a better performance_20
+  - first:
+      213: 5526232882460836207
+    second: invest in clean energy for a better performance_21
+  - first:
+      213: 7695575253948055147
+    second: invest in clean energy for a better performance_22
+  - first:
+      213: -4433077089979231882
+    second: invest in clean energy for a better performance_23
+  - first:
+      213: 353721356996209484
+    second: invest in clean energy for a better performance_24
+  - first:
+      213: 7381850542827093071
+    second: invest in clean energy for a better performance_25
+  - first:
+      213: 3015045053882807081
+    second: invest in clean energy for a better performance_26
+  - first:
+      213: -4498934793545856197
+    second: invest in clean energy for a better performance_27
+  - first:
+      213: 181198653081708338
+    second: invest in clean energy for a better performance_28
+  - first:
+      213: 2527508396746234179
+    second: invest in clean energy for a better performance_29
+  - first:
+      213: -8736744509070028432
+    second: invest in clean energy for a better performance_30
+  - first:
+      213: -7437999468073623047
+    second: invest in clean energy for a better performance_31
+  - first:
+      213: 4708351619132210418
+    second: invest in clean energy for a better performance_32
+  - first:
+      213: 8205957065278061572
+    second: invest in clean energy for a better performance_33
+  - first:
+      213: -384633826382922505
+    second: invest in clean energy for a better performance_34
+  - first:
+      213: -2839498494621739854
+    second: invest in clean energy for a better performance_35
+  - first:
+      213: -175553419778196172
+    second: invest in clean energy for a better performance_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35c4c3daf92326e0800000000000000
+      internalID: -1863599663529802437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce97e00f37c1efa50800000000000000
+      internalID: 6556709391772318188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887f84598f593e3e0800000000000000
+      internalID: -2025610512497576056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb9e410b65db57d0800000000000000
+      internalID: -2928512477114229819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50edc23650d44d050800000000000000
+      internalID: 5824364903630953989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017fa940a494e1c20800000000000000
+      internalID: 3179058969223821072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de526da880c8e70800000000000000
+      internalID: 9118672737909730663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4932d1da883435a80800000000000000
+      internalID: -8479359419109530732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7b1a1863af60490800000000000000
+      internalID: -7780256194225915969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de510e6af0bdee880800000000000000
+      internalID: -8579679379823520275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf4e0b3a21d03090800000000000000
+      internalID: -8056709754056192052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520b271cf557178e0800000000000000
+      internalID: -1697446530414104539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb590e802a223190800000000000000
+      internalID: -7984272870064170063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aff5414099330b00800000000000000
+      internalID: 793541251080519590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd73caf53fc6530800000000000000
+      internalID: 3849719373731716983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745ea326df7cd1c70800000000000000
+      internalID: 8943524326116353351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511f8840c4421b850800000000000000
+      internalID: 6390929255127642389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2128dd38a7d19600800000000000000
+      internalID: 473396553442664751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd51c306a3fe6e080800000000000000
+      internalID: -9158369758209632801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f485511255ef94fc0800000000000000
+      internalID: -3509994792977868721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d66a86919db3b30800000000000000
+      internalID: 4268243775016824161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614921078f11bc40800000000000000
+      internalID: 5526232882460836207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e3cd9abec2cca60800000000000000
+      internalID: 7695575253948055147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_23
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6719dd5cfdb8a72c0800000000000000
+      internalID: -4433077089979231882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_24
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b6a3933bba8e400800000000000000
+      internalID: 353721356996209484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cbb3e35f9917660800000000000000
+      internalID: 7381850542827093071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923bb7a808797d920800000000000000
+      internalID: 3015045053882807081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_27
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bcd0344a29091c0800000000000000
+      internalID: -4498934793545856197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237e6b6073fb38200800000000000000
+      internalID: 181198653081708338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_29
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34950eade73831320800000000000000
+      internalID: 2527508396746234179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_30
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07159838829d0c680800000000000000
+      internalID: -8736744509070028432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_31
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f16de954eae6c890800000000000000
+      internalID: -7437999468073623047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_32
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcb2080adc675140800000000000000
+      internalID: 4708351619132210418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_33
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c710e497a61e170800000000000000
+      internalID: 8205957065278061572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_34
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcb8d1a29189aaf0800000000000000
+      internalID: -384633826382922505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_35
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b490d7d9231898d0800000000000000
+      internalID: -2839498494621739854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invest in clean energy for a better performance_36
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43df307481f409df0800000000000000
+      internalID: -175553419778196172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      invest in clean energy for a better performance_0: -1863599663529802437
+      invest in clean energy for a better performance_1: 6556709391772318188
+      invest in clean energy for a better performance_10: -8056709754056192052
+      invest in clean energy for a better performance_11: -1697446530414104539
+      invest in clean energy for a better performance_12: -7984272870064170063
+      invest in clean energy for a better performance_13: 793541251080519590
+      invest in clean energy for a better performance_14: 3849719373731716983
+      invest in clean energy for a better performance_15: 8943524326116353351
+      invest in clean energy for a better performance_16: 6390929255127642389
+      invest in clean energy for a better performance_17: 473396553442664751
+      invest in clean energy for a better performance_18: -9158369758209632801
+      invest in clean energy for a better performance_19: -3509994792977868721
+      invest in clean energy for a better performance_2: -2025610512497576056
+      invest in clean energy for a better performance_20: 4268243775016824161
+      invest in clean energy for a better performance_21: 5526232882460836207
+      invest in clean energy for a better performance_22: 7695575253948055147
+      invest in clean energy for a better performance_23: -4433077089979231882
+      invest in clean energy for a better performance_24: 353721356996209484
+      invest in clean energy for a better performance_25: 7381850542827093071
+      invest in clean energy for a better performance_26: 3015045053882807081
+      invest in clean energy for a better performance_27: -4498934793545856197
+      invest in clean energy for a better performance_28: 181198653081708338
+      invest in clean energy for a better performance_29: 2527508396746234179
+      invest in clean energy for a better performance_3: -2928512477114229819
+      invest in clean energy for a better performance_30: -8736744509070028432
+      invest in clean energy for a better performance_31: -7437999468073623047
+      invest in clean energy for a better performance_32: 4708351619132210418
+      invest in clean energy for a better performance_33: 8205957065278061572
+      invest in clean energy for a better performance_34: -384633826382922505
+      invest in clean energy for a better performance_35: -2839498494621739854
+      invest in clean energy for a better performance_36: -175553419778196172
+      invest in clean energy for a better performance_4: 5824364903630953989
+      invest in clean energy for a better performance_5: 3179058969223821072
+      invest in clean energy for a better performance_6: 9118672737909730663
+      invest in clean energy for a better performance_7: -8479359419109530732
+      invest in clean energy for a better performance_8: -7780256194225915969
+      invest in clean energy for a better performance_9: -8579679379823520275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
