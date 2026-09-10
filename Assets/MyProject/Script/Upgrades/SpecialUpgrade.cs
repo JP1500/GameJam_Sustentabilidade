@@ -1,13 +1,10 @@
-using System;
-using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class SpecialUpgrade : MonoBehaviour
 {
     [SerializeField] string objectId;
+
     [SerializeField] float timerBonus;
     [SerializeField] int pointBonus;
     [SerializeField] float speedBonus;
@@ -33,7 +30,7 @@ public class SpecialUpgrade : MonoBehaviour
     {
         upgrades = FindObjectsByType<Upgrades>(FindObjectsSortMode.None);
         sustentoBar = FindAnyObjectByType<SustentoBar>();
-        gameManager =FindAnyObjectByType<GameManager>();
+        gameManager = FindAnyObjectByType<GameManager>();
 
         Debug.Log("Tentando carregar: " + objectId);
 
@@ -44,43 +41,78 @@ public class SpecialUpgrade : MonoBehaviour
         if (intBuyied == 1)
         {
             isBuyied = true;
-            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(true); }
-            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(false); }
+
+            foreach (GameObject goodChanges in empresaBoa)
+            {
+                goodChanges.SetActive(true);
+            }
+
+            foreach (GameObject badChanges in empresaRuim)
+            {
+                badChanges.SetActive(false);
+            }
+
             canBuy.SetActive(false);
             valueText.text = "Valor: COMPRADO";
-
         }
         else
         {
             canBuy.SetActive(true);
             isBuyied = false;
-            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(false); }
-            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(true); }
+
+            foreach (GameObject goodChanges in empresaBoa)
+            {
+                goodChanges.SetActive(false);
+            }
+
+            foreach (GameObject badChanges in empresaRuim)
+            {
+                badChanges.SetActive(true);
+            }
+
             valueText.text = "Valor: " + value;
         }
     }
+
     private void Update()
     {
         AllIsMax();
     }
+
     public void OnClick()
     {
-        if ((gameManager.totalPoints >= value) && (AllIsMax()) && !isBuyied)
+        if ((gameManager.totalPoints >= value) && AllIsMax() && !isBuyied)
         {
-            Debug.Log("Depois da compra: " + gameManager.totalPoints);
+
             gameManager.totalPoints -= value;
+
             intBuyied = 1;
             isBuyied = true;
-            Debug.Log("Salvando upgrade:" + objectId);
+
+            Debug.Log("Salvando upgrade: " + objectId);
+
             PlayerPrefs.SetInt(objectId + "isBuyied", intBuyied);
+
             sustentoBar.value += barPoints;
-            foreach (GameObject goodChanges in empresaBoa) { goodChanges.SetActive(true); }
-            foreach (GameObject badChanges in empresaRuim) { badChanges.SetActive(false); }
-            valueText.text = "Valor: COMPRADO";
-            PlayerPrefs.Save();
-            foreach (Upgrades upgrades in upgrades)
+
+            foreach (GameObject goodChanges in empresaBoa)
             {
-                upgrades.maxLevel += 5;
+                goodChanges.SetActive(true);
+            }
+
+            foreach (GameObject badChanges in empresaRuim)
+            {
+                badChanges.SetActive(false);
+            }
+
+            valueText.text = "Valor: COMPRADO";
+
+            foreach (Upgrades upgrade in upgrades)
+            {
+
+                upgrade.maxLevel += 5;
+
+                upgrade.SavePlayerPrefs();
             }
 
             if (objectId == "Painel Solares")
@@ -88,7 +120,6 @@ public class SpecialUpgrade : MonoBehaviour
                 gameManager.solarPanel = true;
                 PlayerPrefs.SetInt("SolarPanel", 1);
             }
-
             else if (objectId == "Turbina Eolicas")
             {
                 gameManager.aeolica = true;
@@ -99,7 +130,9 @@ public class SpecialUpgrade : MonoBehaviour
                 gameManager.hidroeEletrica = true;
                 PlayerPrefs.SetInt("Hidreletrica", 1);
             }
+
             PlayerPrefs.Save();
+
             Debug.Log("Depois da compra: " + gameManager.totalPoints);
         }
     }
@@ -108,16 +141,21 @@ public class SpecialUpgrade : MonoBehaviour
     {
         foreach (Upgrades upgrade in upgrades)
         {
+            // Se UM upgrade não estiver no máximo,
+            // o SpecialUpgrade ainda não pode ser comprado.
             if (!upgrade.isMax || upgrade.upgradeLevel < requireLevel)
             {
-                Debug.Log("Não estou podendo ser comprado");
+                Debug.Log("Ainda não posso ser comprado");
                 canBuy.SetActive(true);
+
                 return false;
             }
         }
 
+        // Se chegou aqui, significa que TODOS passaram pela verificação.
         Debug.Log("Posso ser comprado");
         canBuy.SetActive(false);
+
         return true;
     }
 }

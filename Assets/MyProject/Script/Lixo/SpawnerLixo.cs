@@ -31,16 +31,35 @@ public class SpawnerLixo : MonoBehaviour
     {
         Vector2 pos;
 
+        int tentativas = 0;
+
         do
         {
+            pos = new Vector2(
+                Random.Range(minX, maxX),
+                Random.Range(minY, maxY)
+            );
 
-            pos = new Vector2(Random.Range(maxX, minX), Random.Range(maxY, minY));
-        }
+            tentativas++;
 
-        while (InCamera(pos));
+            if (tentativas >= 100)
+            {
+                Debug.LogWarning("Não consegui encontrar uma posição fora da câmera!");
+                return;
+            }
+
+        } while (InCamera(pos));
 
         GameObject lixo = Instantiate(lixoPrefab, pos, Quaternion.identity);
+
         Debug.Log("Spawnei fora da camera");
+
+        if (spritesPossiveis.Length == 0)
+        {
+            Debug.LogError("O array spritesPossiveis está vazio!");
+            return;
+        }
+
         int spriteIndex = Random.Range(0, spritesPossiveis.Length);
 
         SpriteRenderer sr = lixo.GetComponent<SpriteRenderer>();
@@ -49,8 +68,6 @@ public class SpawnerLixo : MonoBehaviour
         {
             sr.sprite = spritesPossiveis[spriteIndex];
         }
-
-
     }
 
     bool InCamera(Vector2 posicao)

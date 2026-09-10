@@ -1,6 +1,5 @@
- using TMPro;
+using TMPro;
 using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 public class Upgrades : MonoBehaviour
@@ -23,7 +22,6 @@ public class Upgrades : MonoBehaviour
     [SerializeField] float speedBonus;
 
     [Header("Multiplicadores de valor")]
-
     [SerializeField] public float multiplierValue;
 
     [Header("Componentes externos")]
@@ -33,11 +31,21 @@ public class Upgrades : MonoBehaviour
     {
         gameManager = FindAnyObjectByType<GameManager>();
 
-        upgradeLevel =PlayerPrefs.GetInt(objectId + "upgradeLevel", upgradeLevel);
-        value = PlayerPrefs.GetInt(objectId + "upgradeValue", value);
-        maxLevel = PlayerPrefs.GetInt(objectId + "maxLevel", maxLevel);
+        upgradeLevel = PlayerPrefs.GetInt(objectId + "upgradeLevel",upgradeLevel);
+        value = PlayerPrefs.GetInt(objectId + "upgradeValue",value);
+        maxLevel = PlayerPrefs.GetInt(objectId + "maxLevel",maxLevel);
 
-        if (upgradeLevel == maxLevel)
+        UpdateUpgradeUI();
+    }
+
+    private void Update()
+    {
+        UpdateUpgradeUI();
+    }
+
+    void UpdateUpgradeUI()
+    {
+        if (upgradeLevel >= maxLevel)
         {
             isMax = true;
             valueText.text = "Valor: MAXIMO";
@@ -45,60 +53,48 @@ public class Upgrades : MonoBehaviour
         else
         {
             isMax = false;
-            valueText.text = "Valor:" + value;
-        }
-    }
-
-    private void Update()
-    {
-        if (upgradeLevel == maxLevel)
-        {
-            isMax = true;
-            valueText.text = "Valor: MAXIMO";
-        }
-        else if (upgradeLevel != maxLevel)
-        {
-            isMax = false;
-            valueText.text = "Valor:" + value;
+            valueText.text = "Valor: " + value;
         }
     }
 
     public void OnClick()
     {
-
-        if ((gameManager.totalPoints >= value) && (!isMax))
+        if ((gameManager.totalPoints >= value) && !isMax)
         {
             gameManager.totalPoints -= value;
+
             IncreaseValue();
 
             gameManager.timerBonus += timerBonus;
             gameManager.pointBonus += pointBonus;
             gameManager.speedBonus += speedBonus;
+
             upgradeLevel++;
 
-            PlayerPrefs.SetInt(objectId + "upgradeLevel", upgradeLevel);
-            PlayerPrefs.SetInt(objectId + "upgradeValue", value);
-            PlayerPrefs.SetInt(objectId + "maxLevel", maxLevel);
+            SavePlayerPrefs();
 
-            PlayerPrefs.SetFloat("TimerBonus", gameManager.timerBonus);
-            PlayerPrefs.SetFloat("SpeedBonus", gameManager.speedBonus);
-            PlayerPrefs.SetInt("PointBonus", gameManager.pointBonus);
+            PlayerPrefs.SetFloat("TimerBonus",gameManager.timerBonus);
+            PlayerPrefs.SetFloat("SpeedBonus",gameManager.speedBonus);
+            PlayerPrefs.SetInt("PointBonus",gameManager.pointBonus);
+
             PlayerPrefs.Save();
         }
     }
 
     public void SavePlayerPrefs()
     {
-        PlayerPrefs.SetInt(objectId + "upgradeLevel", upgradeLevel);
-        PlayerPrefs.SetInt(objectId + "upgradeValue", value);
-        PlayerPrefs.SetInt(objectId + "maxLevel", maxLevel);
+        PlayerPrefs.SetInt(objectId + "upgradeLevel",upgradeLevel);
+        PlayerPrefs.SetInt(objectId + "upgradeValue",value);
+        PlayerPrefs.SetInt(objectId + "maxLevel",maxLevel);
         PlayerPrefs.Save();
     }
 
     public void IncreaseValue()
     {
-            float floatValue = value.ConvertTo<float>();
-            floatValue = floatValue * multiplierValue;
-            value = value + floatValue.ConvertTo<int>();        
+        float floatValue = value;
+
+        floatValue = floatValue * multiplierValue;
+
+        value = value + floatValue.ConvertTo<int>();
     }
 }

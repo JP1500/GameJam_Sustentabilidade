@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        speed = 5;
         canMove = true;
 
         moveJoystick = FindAnyObjectByType<FixedJoystick>();
@@ -40,7 +39,6 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         speed += gameManager.speedBonus;
         lifeTime += gameManager.timerBonus;
-        //posicao = transform.position;
     }
 
     void FixedUpdate()

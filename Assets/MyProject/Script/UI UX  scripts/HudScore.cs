@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class HudScore : MonoBehaviour
 {
@@ -10,10 +9,26 @@ public class HudScore : MonoBehaviour
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
-        textScore.text = gameManager.totalPoints.ToString();
+
+        if (gameManager == null)
+        {
+            Debug.LogError("HUD NÃO ENCONTROU O GAMEMANAGER!");
+        }
+        else
+        {
+            Debug.Log("HUD ENCONTROU: " + gameManager.gameObject.name);
+        }
     }
-    void Update()
+
+    private void Update()
     {
+        while (gameManager == null)
+        {
+            gameManager = FindAnyObjectByType<GameManager>();
+        }
+
+        Debug.Log("HUD pegou: " + gameManager.totalPoints);
         textScore.text = gameManager.totalPoints.ToString();
+        
     }
 }

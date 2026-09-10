@@ -21,18 +21,23 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
+            return;
         }
 
-        totalPoints = PlayerPrefs.GetInt("totalPoints", totalPoints);
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        Debug.LogError("ANTES DO PLAYERPREFS: " + totalPoints);
+
+        totalPoints = PlayerPrefs.GetInt("totalPoints", 0);
+
+        Debug.LogError("DEPOIS DO PLAYERPREFS: " + totalPoints);
+
+
+        //totalPoints = PlayerPrefs.GetInt("totalPoints", totalPoints);
         timerBonus = PlayerPrefs.GetFloat("TimerBonus", 0);
         speedBonus = PlayerPrefs.GetFloat("SpeedBonus", 0);
         pointBonus = PlayerPrefs.GetInt("PointBonus", 0);
@@ -43,11 +48,7 @@ public class GameManager : MonoBehaviour
     }
     public void AddPoints(int amount)
     {
-        Debug.Log("Antes: " + totalPoints); 
-
         totalPoints += amount;
-
-        Debug.Log("Depois: " + totalPoints);
         PlayerPrefs.SetInt("totalPoints", totalPoints);
         PlayerPrefs.Save();
     }
