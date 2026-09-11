@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c83aa801bf703b4682e276d17ca74d9
+guid: fff0f72a279ca054a8903f1de5e916a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8396281425323159923
-    second: helice 4_0
+      213: -5627289723425797464
+    second: lixeira eco_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,33 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: helice 4_0
+      name: lixeira eco_0
       rect:
         serializedVersion: 2
-        x: 183
-        y: 97
-        width: 189
-        height: 341
-      alignment: 9
-      pivot: {x: 0.38520917, y: 0.006552509}
+        x: 63
+        y: 190
+        width: 380
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8e0761778a6a7b80800000000000000
-      internalID: -8396281425323159923
+      spriteID: 8aacffaafc9d7e1b0800000000000000
+      internalID: -5627289723425797464
       vertices: []
       indices: 
       edges: []
@@ -164,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb7771a97d8f15e409000588d93c6d30
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      helice 4_0: -8396281425323159923
+      lixeira eco_0: -5627289723425797464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

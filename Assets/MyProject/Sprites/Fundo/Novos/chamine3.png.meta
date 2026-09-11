@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 482a1bcae3966db4aa7d075c86d9496d
+guid: ab05f46d7ec7ecb4e8886231ccca6be5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2436627778904889143
-    second: "392 Sem T\xEDtulo4_20260815182153_0"
+      213: 5597925278803259364
+    second: chamine3_0
   - first:
-      213: 4618712079633441975
-    second: "392 Sem T\xEDtulo4_20260815182153_1"
+      213: -3503740281979105024
+    second: chamine3_1
   - first:
-      213: 7793560210521726056
-    second: "392 Sem T\xEDtulo4_20260815182153_2"
+      213: -4831423074476564191
+    second: chamine3_2
   - first:
-      213: -6302786728042326468
-    second: "392 Sem T\xEDtulo4_20260815182153_3"
+      213: 8727724520682988240
+    second: chamine3_3
   - first:
-      213: 874200818261228342
-    second: "392 Sem T\xEDtulo4_20260815182153_4"
+      213: 4707182051416469959
+    second: chamine3_4
   - first:
-      213: -7635476062887876786
-    second: "392 Sem T\xEDtulo4_20260815182153_5"
-  - first:
-      213: -6399950332976127079
-    second: "392 Sem T\xEDtulo4_20260815182153_6"
-  - first:
-      213: 6936758281185892891
-    second: "392 Sem T\xEDtulo4_20260815182153_7"
-  - first:
-      213: 8997155631253157498
-    second: "392 Sem T\xEDtulo4_20260815182153_8"
-  - first:
-      213: -2793587153319100165
-    second: "392 Sem T\xEDtulo4_20260815182153_9"
+      213: 8187819421651958787
+    second: chamine3_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -140,133 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_2"
+      name: chamine3_0
       rect:
         serializedVersion: 2
-        x: 952
-        y: 1572
-        width: 446
-        height: 548
+        x: 383
+        y: 822
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86c14cb28b9482c60800000000000000
-      internalID: 7793560210521726056
+      spriteID: 4ef6f3ac163dfad40800000000000000
+      internalID: 5597925278803259364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_3"
+      name: chamine3_1
       rect:
         serializedVersion: 2
-        x: 3102
-        y: 1572
-        width: 458
-        height: 557
+        x: 444
+        y: 772
+        width: 56
+        height: 57
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c369dfb4dd00888a0800000000000000
-      internalID: -6302786728042326468
+      spriteID: 0019863f6c6306fc0800000000000000
+      internalID: -3503740281979105024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_4"
+      name: chamine3_2
       rect:
         serializedVersion: 2
-        x: 236
-        y: 1572
-        width: 424
-        height: 553
+        x: 542
+        y: 784
+        width: 75
+        height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63bf0d23309c12c00800000000000000
-      internalID: 874200818261228342
+      spriteID: 121e23ecf4653fcb0800000000000000
+      internalID: -4831423074476564191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_5"
+      name: chamine3_3
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 1572
-        width: 447
-        height: 544
+        x: 438
+        y: 539
+        width: 121
+        height: 225
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e47e19ca9f6590690800000000000000
-      internalID: -7635476062887876786
+      spriteID: 0d2a6c8c53b1f1970800000000000000
+      internalID: 8727724520682988240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_7"
+      name: chamine3_4
       rect:
         serializedVersion: 2
-        x: 2402
-        y: 1572
-        width: 426
-        height: 537
+        x: 587
+        y: 737
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1a95da77e0544060800000000000000
-      internalID: 6936758281185892891
+      spriteID: 7c1f5c3d225435140800000000000000
+      internalID: 4707182051416469959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "392 Sem T\xEDtulo4_20260815182153_8"
+      name: chamine3_5
       rect:
         serializedVersion: 2
-        x: 3812
-        y: 1572
-        width: 440
-        height: 543
+        x: 578
+        y: 539
+        width: 121
+        height: 191
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a76ffbda0615cdc70800000000000000
-      internalID: 8997155631253157498
+      spriteID: 30cfb90126af0a170800000000000000
+      internalID: 8187819421651958787
       vertices: []
       indices: 
       edges: []
@@ -275,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fdbb7d083aaa2154b8f40c626efcc8db
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -285,16 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "392 Sem T\xEDtulo4_20260815182153_0": 2436627778904889143
-      "392 Sem T\xEDtulo4_20260815182153_1": 4618712079633441975
-      "392 Sem T\xEDtulo4_20260815182153_2": 7793560210521726056
-      "392 Sem T\xEDtulo4_20260815182153_3": -6302786728042326468
-      "392 Sem T\xEDtulo4_20260815182153_4": 874200818261228342
-      "392 Sem T\xEDtulo4_20260815182153_5": -7635476062887876786
-      "392 Sem T\xEDtulo4_20260815182153_6": -6399950332976127079
-      "392 Sem T\xEDtulo4_20260815182153_7": 6936758281185892891
-      "392 Sem T\xEDtulo4_20260815182153_8": 8997155631253157498
-      "392 Sem T\xEDtulo4_20260815182153_9": -2793587153319100165
+      chamine3_0: 5597925278803259364
+      chamine3_1: -3503740281979105024
+      chamine3_2: -4831423074476564191
+      chamine3_3: 8727724520682988240
+      chamine3_4: 4707182051416469959
+      chamine3_5: 8187819421651958787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

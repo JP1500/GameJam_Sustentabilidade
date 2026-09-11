@@ -1145,7 +1145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 15, y: 92.347}
+  m_AnchoredPosition: {x: 15, y: 92.347015}
   m_SizeDelta: {x: 524, y: 456.54}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &378334524
@@ -1773,7 +1773,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 4271b6346d455e343ab91e4059c7c8fd, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4e1422acd9259f14e8e9ce25f682e962, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2973,9 +2973,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1370783751}
+      - m_Target: {fileID: 8300000, guid: 4e1422acd9259f14e8e9ce25f682e962, type: 3}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4267,7 +4267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1681831283906654698, guid: 924a32ef22c2b824b8b11502a75d2546, type: 3}
+  m_Sprite: {fileID: -140808849220637266, guid: d49dcd0817608744681e5fc941409bd2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4313,9 +4313,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b7c45987915ba8b4e9d25c2631de1a1d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4e1422acd9259f14e8e9ce25f682e962, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.711
   m_Pitch: 1
   Loop: 0
   Mute: 0

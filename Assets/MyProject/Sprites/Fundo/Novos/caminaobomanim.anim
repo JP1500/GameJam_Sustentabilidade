@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Helice
+  m_Name: caminaobomanim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -8396281425323159923, guid: 6c83aa801bf703b4682e276d17ca74d9, type: 3}
-    - time: 0.083333336
-      value: {fileID: 1875199112242850675, guid: 5522e0c9d1f40e646a1593f2d5f34568, type: 3}
-    - time: 0.16666667
-      value: {fileID: 5537400958286047471, guid: 2b990695ce91ee642a461eee85c5b4d6, type: 3}
-    - time: 0.25
-      value: {fileID: 6679760301103567448, guid: 6092980f294654e4a8b58b5de642b9b7, type: 3}
+      value: {fileID: -7612859472734039045, guid: bc11fee71844b6b4db387178ed9fa20d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +44,13 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -8396281425323159923, guid: 6c83aa801bf703b4682e276d17ca74d9, type: 3}
-    - {fileID: 1875199112242850675, guid: 5522e0c9d1f40e646a1593f2d5f34568, type: 3}
-    - {fileID: 5537400958286047471, guid: 2b990695ce91ee642a461eee85c5b4d6, type: 3}
-    - {fileID: 6679760301103567448, guid: 6092980f294654e4a8b58b5de642b9b7, type: 3}
+    - {fileID: -7612859472734039045, guid: bc11fee71844b6b4db387178ed9fa20d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
