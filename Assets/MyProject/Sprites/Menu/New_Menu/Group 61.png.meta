@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 34130d465eda1e04ebd3079fa7c7d7fb
+guid: 67367819671063d478bebe83c5338bba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1868418885481236605
-    second: chamine4_0
-  - first:
-      213: 981513812187161972
-    second: chamine4_1
+      213: 935367798112455826
+    second: Group 61_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,11 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.501, y: 0.5}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -116,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chamine4_0
+      name: Group 61_0
       rect:
         serializedVersion: 2
-        x: 397
-        y: 539
-        width: 161
-        height: 332
+        x: 0
+        y: 0
+        width: 456
+        height: 105
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d788db8b315fde910800000000000000
-      internalID: 1868418885481236605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chamine4_1
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 539
-        width: 142
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4752e85ac990f9d00800000000000000
-      internalID: 981513812187161972
+      spriteID: 29c05dc7e081bfc00800000000000000
+      internalID: 935367798112455826
       vertices: []
       indices: 
       edges: []
@@ -163,8 +138,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      chamine4_0: 1868418885481236605
-      chamine4_1: 981513812187161972
+      Group 61_0: 935367798112455826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
