@@ -119,6 +119,74 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &113550416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 113550418}
+  - component: {fileID: 113550417}
+  m_Layer: 0
+  m_Name: Video Player (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &113550417
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113550416}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 0981c2c5df00ad94aa5805e27dd39d70, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8600000, guid: 4d62cd70b04a42e47b549223fffc5020, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 684411252}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: https://jp1500.github.io/Video_Brotobo/cutcene.mp4
+  m_EnabledAudioTracks: 00
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 0
+  m_Looping: 0
+  m_WaitForFirstFrame: 0
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &113550418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113550416}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119324570
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,6 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309838662}
   - component: {fileID: 309838661}
+  - component: {fileID: 309838663}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -291,15 +360,15 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 684411252}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: https://jp1500.github.io/Video_Brotobo/cutcene.mp4
   m_EnabledAudioTracks: 00
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -324,6 +393,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &309838663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309838660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e659a1f1f30204bafea993addc1813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FimVideo
+  timeToFade: 33
+  changeScene: {fileID: 1773203758}
+  transition: {fileID: 1773203753}
 --- !u!1 &661657048
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +871,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1773203755}
+      - m_Target: {fileID: 1773203753}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1773203758}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: StartFade
         m_Mode: 1
@@ -797,7 +893,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &1334567592
 GameObject:
@@ -938,7 +1034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -6.428589}
+  m_AnchoredPosition: {x: 0, y: -6.4285583}
   m_SizeDelta: {x: -46.983887, y: 12.857178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760748733
@@ -987,7 +1083,7 @@ GameObject:
   - component: {fileID: 1773203754}
   - component: {fileID: 1773203757}
   - component: {fileID: 1773203756}
-  - component: {fileID: 1773203755}
+  - component: {fileID: 1773203758}
   m_Layer: 5
   m_Name: Transition (Out)
   m_TagString: Untagged
@@ -1014,22 +1110,6 @@ RectTransform:
   m_AnchoredPosition: {x: -59.663574, y: -27.922607}
   m_SizeDelta: {x: 1890.8323, y: 794.5015}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1773203755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773203753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828cf4c77dad8eb4694b2a820bb32a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
-  fadeImage: {fileID: 1773203756}
-  fadeDuration: 1
-  nextScene: Menu
-  audioSource: {fileID: 0}
 --- !u!114 &1773203756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,52 +1148,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773203753}
   m_CullTransparentMesh: 1
---- !u!1 &2007942045
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2007942047}
-  - component: {fileID: 2007942046}
-  m_Layer: 0
-  m_Name: cutceneFinal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2007942046
+--- !u!114 &1773203758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007942045}
+  m_GameObject: {fileID: 1773203753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8e659a1f1f30204bafea993addc1813, type: 3}
+  m_Script: {fileID: 11500000, guid: 828cf4c77dad8eb4694b2a820bb32a11, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FimVideo
-  videoPlayer: {fileID: 309838661}
-  cena: Menu
---- !u!4 &2007942047
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007942045}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 333.4922, y: 137.94196, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  fadeImage: {fileID: 1773203756}
+  fadeDuration: 1
+  nextScene: Menu
+  audioSource: {fileID: 684411252}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1122,5 +1172,5 @@ SceneRoots:
   - {fileID: 1334567596}
   - {fileID: 661657051}
   - {fileID: 309838662}
+  - {fileID: 113550418}
   - {fileID: 684411253}
-  - {fileID: 2007942047}

@@ -22,10 +22,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameManager gameManager;
     [SerializeField] Transform posicao;
 
-    
-
-
-
+    [Header("Controle celular")]
+    [SerializeField] GameObject joystick;
 
     private void Awake()
     {
@@ -52,7 +50,8 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocityX = moveJoystick.Horizontal * speed;
             rb.linearVelocityY = moveJoystick.Vertical * speed;
-            
+
+            rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * speed;
         }
 
         if ((rb.linearVelocityX != 0) || (rb.linearVelocityY != 0))
@@ -82,6 +81,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         Vector2 movimento = new Vector2(transform.position.x, transform.position.y); 
 
         if (rb.linearVelocityX >= 0.3)

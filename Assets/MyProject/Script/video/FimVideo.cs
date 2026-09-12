@@ -1,26 +1,27 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.Video;
 
 public class FimVideo : MonoBehaviour
 {
-    [SerializeField] VideoPlayer videoPlayer;
-    [SerializeField] string cena;
+    [SerializeField] float timeToFade;
+
+    [SerializeField] ChangeScene changeScene;
+    [SerializeField] GameObject transition;
     void Start()
     {
-        videoPlayer.loopPointReached += AoTerminar;
+        changeScene = GetComponent<ChangeScene>();
+
+        StartCoroutine(StartFadeAfterTime());
     }
 
-
-    void AoTerminar(VideoPlayer vp)
+    IEnumerator StartFadeAfterTime()
     {
-        SceneManager.LoadScene(cena);
-    }
+        yield return new WaitForSeconds(timeToFade);
 
-    void OnDestroy()
-    {
-        videoPlayer.loopPointReached -= AoTerminar;
+        transition.SetActive(true);
+        changeScene = FindAnyObjectByType<ChangeScene>();
+
+        changeScene.StartFade();
     }
 }
-
-   

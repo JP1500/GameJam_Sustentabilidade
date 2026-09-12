@@ -76,6 +76,10 @@ public class SpecialUpgrade : MonoBehaviour
 
     private void Update()
     {
+        if (gameManager == null)
+        {
+            gameManager = FindAnyObjectByType<GameManager>();
+        }
         AllIsMax();
     }
 

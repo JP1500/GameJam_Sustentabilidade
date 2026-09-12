@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour
     [Header("Outros componentes/objetos")]
     [SerializeField] ChangeScene changeScene;
     [SerializeField] public PlayerController playerController;
+    [SerializeField] public Slider slider;
 
     [Header("Transição de cenas")]
     [SerializeField] public GameObject gameStart;
@@ -23,12 +24,15 @@ public class Timer : MonoBehaviour
     {
         changeScene = FindAnyObjectByType<ChangeScene>();
         playerController = FindAnyObjectByType<PlayerController>();
+        slider = FindAnyObjectByType<Slider>();
         Instance = this;
+
 
     }
 
     private void Start()
     {
+        slider.maxValue = playerController.lifeTime;
         currentTime = playerController.lifeTime;
     }
     void Update()
@@ -39,7 +43,7 @@ public class Timer : MonoBehaviour
             if (currentTime >= 0)
             {
                 currentTime -= Time.deltaTime;
-
+                slider.value = currentTime;
             }
 
             else if (currentTime <= 0)

@@ -40,6 +40,10 @@ public class Upgrades : MonoBehaviour
 
     private void Update()
     {
+        if (gameManager == null)
+        {
+            gameManager = FindAnyObjectByType<GameManager>();
+        }
         UpdateUpgradeUI();
     }
 
@@ -62,6 +66,7 @@ public class Upgrades : MonoBehaviour
         if ((gameManager.totalPoints >= value) && !isMax)
         {
             gameManager.totalPoints -= value;
+            PlayerPrefs.SetInt("totalPoints", gameManager.totalPoints);
 
             IncreaseValue();
 

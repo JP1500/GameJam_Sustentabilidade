@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class GameManager : MonoBehaviour
     public bool solarPanel;
     public bool hidroeEletrica;
     public bool aeolica;
+
+    [Header("Mobile ou PC")]
+    public bool inPC;
+
 
     private void Awake()
     {
